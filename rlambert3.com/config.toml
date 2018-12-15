@@ -1,0 +1,282 @@
+# Page settings
+
+baseurl = "https://rlambert3.com/"
+languageCode = "en-us"
+title = "Robert J. Lambert III"
+theme = "hugo-orbit-theme"
+googleAnalytics = "UA-13189879-6"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+
+# Meta
+    description = "Resume of Robert J. Lambert III"
+    author = "Robert J. Lambert III"
+
+# Theme styles
+
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
+
+    styles = "styles.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Robert J. Lambert III"
+        tagline = "Experienced Site Reliability Engineer"
+        avatar = "me.jpeg"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: rob@rlambert3.com"
+        title = "rob@rlambert3.com"
+
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "tel:+5182270885"
+        title = "+5182270885"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//rlambert3.com"
+        title = "rlambert3.com"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/rlambert85"
+        title = "in/rlambert85"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/esoterick"
+        title = "github.com/esoterick"
+
+        [[params.contact.list]]
+        class = "twitter"
+        icon = "fa-twitter"
+        url = "//twitter.com/rlambert"
+        title = "@rlambert"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "A.S. Computer Information Systems"
+        college = "Hudson Valley Community College"
+        dates = ""
+
+    # Languages section
+    [params.language]
+        enable = false
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "French"
+        level = "Professional"
+
+        [[params.language.list]]
+        language = "Russian"
+        level = "Professional"
+
+    # Interests section
+    [params.interests]
+        enable = false
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Climbing"
+
+        [[params.interests.list]]
+        interest = "Snowboarding"
+
+        [[params.interests.list]]
+        interest = "Cooking"
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Career Profile"
+        summary = """
+With over a decade of real world experience under my belt, I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC. Since then, I have been constantly in search of knowledge; learning new things daily. Acting like an owner has allowed me to grow myself personally and professionally. This has forced me to step up and become a natural leader. Wether I am working with multiple teams solving complex distributed problems or deep diving an issue on my own I tackle problems head on.
+"""
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Senior Site Reliability Engineer"
+        dates = "2018 - Present"
+        company = "LinkedIn, Sunnyvale"
+        details = """
+- Represent Espresso in multiple cross orginization stand ups providing both execution and single point of contact for our team
+- Converted multiple legacy codebases to python3 and Go
+- Helped design and implement availability calculations for all Espresso clusters
+- Designed and implemented our global cross colo consistency calculation metric for Espresso
+- Worked with developers in designing and implementing our Espresso Data Replication SLA metric
+- Worked with newly hired Espresso SREs to get them onboarded and able to contribute to our ecosystem in under 3 months
+
+**Above and beyond**
+
+- Participated in multiple interviews and hiring commities of SREs, Senior SREs, and Managers
+- Organized and started the first Espresso SRE Hackday
+- Taught multiple SRE Bootcamps, teaching new hires all about the envionment at LinkedIn in and our custom tooling
+"""
+
+        [[params.jobs.list]]
+        position = "Site Reliability Engineer"
+        dates = "2017 - 2018"
+        company = "LinkedIn, Sunnyvale"
+        details = """
+- Worked with multiple teams building the Espresso Data layer from the ground up for a new fabric
+- Provide documentation improvments for Espresso cluster creation, consuming tribal knowledge from multiple sources in to workable runbooks
+- Design, Built and Maintained 120+ node ELK cluster handling all of Espresso's logging data across 4 data centers
+- Built service overview dashboards for each Espresso owned service reducing both MTTR and MTTD
+- Took lead on multiple GDPR related Horizontal Initiatives, overseeing both the design, and resolution
+- Managed the data migration of multiple Espresso Clusters, involving cooperation between multiple teams both onsite and in Bangalore
+"""
+
+        [[params.jobs.list]]
+        position = "Site Reliability Engineer"
+        dates = "2016 - 2017"
+        company = "Capital District Physicians Health Plan, Albany"
+        details = """
+- Actively managing a balance of Operational work and Development work to ensure important business services are up and fast
+- Provide Engineering and Development teams with custom tooling built off known frameworks to give them the data they need to do their job effectively
+- Design Ansible and CFengine code to automate operational and system level tasks to improve performance, provide a higher reliability and scale when needed 
+- Design and implement ELK log monitoring solution, with FileBeats, NXLog, Kafka, Logstash, ElasticSearch, Kibana"""
+
+        [[params.jobs.list]]
+        position = "Systems Engineer II"
+        dates = "2015 - 2016"
+        company = "Capital District Physicians Health Plan, Albany"
+        details = """
+- Design and implement integration systems between our Enterprise Monitoring solutions, our CMDB, Operator Runbook, ITSM Tool, and CFEngine our Configuration Management Platform
+- Coordinate with Directors and Architects to migrate and or upgrade applications, which involves working with different teams and developers
+- Design and implemented APM solution (AppDynamics) with integration into existing opsview environment
+- Currently focused on the design and implementation of the Mulesoft Enterprise Service Bus, which currently has both on premise and AWS components"""
+        
+
+        [[params.jobs.list]]
+        position = "Systems Engineer I"
+        dates = "2014 - 2015"
+        company = "Capital District Physicians Health Plan, Albany"
+        details = """
+- Helped design, code and deployed configuration management from nothing to production
+- Currently this is a self-healing CFEngine solution backed with ansible used for ad-hoc tasks and building simple reports
+- Currently working to configure and deploy Opsview a Nagios fork to replace Tivoli Enterprise Portal
+- Handle day to day operational work like diagnosing web performance issues, code misconfigurations, as well as other internal infastructure issues"""
+
+        [[params.jobs.list]]
+        position = "Linux Systems Administator"
+        dates = "2010 - 2014"
+        company = "Xerox Litigation Services, Albany"
+        details = """
+- Installed and maintained servers in multi-site tier 3 and 4 data centers located internationally
+- Overseas travel to work directly with clients on site to provide support for custom virtualized appliance as well as upgrade hardware and underlying system architecture for high availability and performance
+- Designed custom software solutions to reduce costs of operational expenses by utilizing open source solutions rather than purchasing enterprise
+- Engineer IT solutions to accommodate changing environments and project requirements from clients while actively working with other departments to resolve any issues in a timely manner
+- Worked on a rotating on call schedule providing support for all systems on off hours
+- Worked with US DoD Secret Clearance"""
+
+        [[params.jobs.list]]
+        position = "NOC Operator"
+        dates = "2007 - 2010"
+        company = "Xerox Litigation Services, Albany"
+        details = """
+- Provided 24 hour support for Clients and Client Managers for all of the XLS products and infrastructure
+- Monitored logs and custom alerting software to initiate the resolution of any potential or incipient issues
+- Programmed enhancements for our internal monitoring software one notable improvement was upgrading the web application to use AJAX over the old static layout
+"""
+
+    # Projects section
+    [params.projects]
+        enable = true
+        icon = "fa-archive"
+        title = "Projects"
+        intro = """
+**Open Source** A lot of my day to day work revolves around supporting the following open source products.
+"""
+
+        [[params.projects.list]]
+        title = "Espresso"
+        url = "https://engineering.linkedin.com/espresso/introducing-espresso-linkedins-hot-new-distributed-document-store"
+        tagline = "Espresso is LinkedIn's online, distributed, fault-tolerant NoSQL database that currently powers approximately 30 LinkedIn applications including Member Profile, InMail (LinkedIn's member-to-member messaging system), portions of the Homepage and mobile applications, etc."
+
+        [[params.projects.list]]
+        title = "Kafka"
+        url = "https://kafka.apache.org/"
+        tagline = "Apache Kafka® is a distributed streaming platform. Used across all engineering to stream data reliably."
+
+        [[params.projects.list]]
+        title = "Helix"
+        url = "https://git-wip-us.apache.org/repos/asf?p=helix.git;a=summary"
+        tagline = "Helix is a cluster management framework for partitioned and replicated distributed resources. Helix powers not only Espresso but numerous other technologies I've worked on at LinkedIn that require Master/Slave or Leader/Follower architectures."
+
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "Linux & Bash"
+        level = "98%"
+                
+        [[params.skills.list]]
+        skill = "Python & Go"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Distributed Systems"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Monitoring and Logging"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "Java Performance Tuning"
+        level = "75%"
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    # 
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = "Robert J. Lambert III"
