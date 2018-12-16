@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "https://rlambert3.com/"
+baseurl = "http://rob.lolbert.com/"
 languageCode = "en-us"
 title = "Robert J. Lambert III"
 theme = "hugo-orbit-theme"
@@ -180,7 +180,7 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
         details = """
 - Actively managed a balance of Operational work and Development work to ensure important business services were up and responsive
 - Provided Engineering and Development teams with custom tooling built off known frameworks to give them the data they need to do their job more effectively
-- Designed Ansible and CFengine code to automate operational and system level tasks to improve performance, provide a higher reliability and scale when needed 
+- Designed Ansible and CFengine code to automate operational and system level tasks to improve performance, provide a higher reliability and scale when needed
 - Designed and implemented ELK log monitoring solution, with FileBeats, NXLog, Kafka, Logstash, ElasticSearch, Kibana"""
 
         [[params.jobs.list]]
@@ -269,7 +269,7 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
         [[params.skills.list]]
         skill = "Linux & Bash"
         level = "98%"
-                
+
         [[params.skills.list]]
         skill = "Python & Go"
         level = "95%"
@@ -292,7 +292,7 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
     # Please keep the original attribution link when using for your own project.
     # If you'd like to use the template without the attribution,
     # you can check out other license options via template author's website: themes.3rdwavemedia.com
-    # 
+    #
     # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
 
     [params.footer]

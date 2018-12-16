@@ -1,17 +1,30 @@
-apiVersion: apps/v1
-kind: ReplicaSet
+apiVersion: v1
+kind: Service
 metadata:
   name: rlambert3
 spec:
-  replicas: 1
+  ports:
+  - port: 80
+    targetPort: 5669
+  selector:
+    app: rlambert3
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rlambert3
+spec:
   selector:
     matchLabels:
       app: rlambert3
+  replicas: 3
   template:
     metadata:
       labels:
         app: rlambert3
     spec:
       containers:
-        - name: rlambert3
-          image: rlambert/rlambert3
+      - name: rlambert3
+        image: rlambert/rlambert3
+        ports:
+        - containerPort: 5669
