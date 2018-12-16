@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: rlambert3
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: rlambert3
+  template:
+    metadata:
+      labels:
+        app: rlambert3
+    spec:
+      containers:
+        - name: rlambert3
+          image: rlambert/rlambert3
