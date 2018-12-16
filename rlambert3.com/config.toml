@@ -81,12 +81,12 @@ disable404 = true
 
         [[params.education.list]]
         degree = "A.S. Computer Information Systems"
-        college = "Hudson Valley Community College"
+        college = "Hudson Valley Community College, Troy, NY"
         dates = ""
 
     # Languages section
     [params.language]
-        enable = false
+        enable = true
         title = "Languages"
 
         [[params.language.list]]
@@ -94,26 +94,32 @@ disable404 = true
         level = "Native"
 
         [[params.language.list]]
-        language = "French"
+        language = "Python"
         level = "Professional"
 
         [[params.language.list]]
-        language = "Russian"
+        language = "Go"
         level = "Professional"
 
     # Interests section
     [params.interests]
-        enable = false
+        enable = true
         title = "Interests"
 
         [[params.interests.list]]
-        interest = "Climbing"
+        interest = "My Dogs"
 
         [[params.interests.list]]
-        interest = "Snowboarding"
+        interest = "Programming"
 
         [[params.interests.list]]
-        interest = "Cooking"
+        interest = "3D Printing"
+
+        [[params.interests.list]]
+        interest = "Home Automation"
+
+        [[params.interests.list]]
+        interest = "Machine Learning"
 
 # Main body sections
 
@@ -125,7 +131,7 @@ disable404 = true
         icon = "fa-user"
         title = "Career Profile"
         summary = """
-With over a decade of real world experience under my belt, I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC. Since then, I have been constantly in search of knowledge; learning new things daily. Acting like an owner has allowed me to grow myself personally and professionally. This has forced me to step up and become a natural leader. Wether I am working with multiple teams solving complex distributed problems or deep diving an issue on my own I tackle problems head on.
+I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, which inspired me to gain my college accreditation in Computer Information Systems, and pursue a professional career in this field. Now, with over ten years of professional, real-world experience, I find myself constantly in search of knowledge and new skill sets. Most recently, I've taken pride in harnessing and growing my leadership skills by working across multiple teams to solve complex distributed problems, in addition to solo projects.
 """
 
     # Experiences section
@@ -137,30 +143,31 @@ With over a decade of real world experience under my belt, I wrote my first comp
         [[params.jobs.list]]
         position = "Senior Site Reliability Engineer"
         dates = "2018 - Present"
-        company = "LinkedIn, Sunnyvale"
+        company = "LinkedIn - Sunnyvale, CA"
         details = """
-- Represent Espresso in multiple cross orginization stand ups providing both execution and single point of contact for our team
-- Converted multiple legacy codebases to python3 and Go
-- Helped design and implement availability calculations for all Espresso clusters
-- Designed and implemented our global cross colo consistency calculation metric for Espresso
-- Worked with developers in designing and implementing our Espresso Data Replication SLA metric
-- Worked with newly hired Espresso SREs to get them onboarded and able to contribute to our ecosystem in under 3 months
+- Representing Espresso in multiple cross orginization stand ups providing both execution and single point of contact for our team
+- Maintain multiple internal products including upgrading multiple legacy codebases to python3 and Go
+- Help with designing and implementing availability calculations for all Espresso clusters
+- Designing and implementing our global cross colo consistency calculation metric and SLA for Espresso
+- Working with developers in designing and implementing our Espresso Data Replication SLA and metrics
+- Working with new Espresso SREs getting them onboarded and able to contribute to our ecosystem in under 3 months
 
 **Above and beyond**
 
-- Participated in multiple interviews and hiring commities of SREs, Senior SREs, and Managers
-- Organized and started the first Espresso SRE Hackday
+- Succfully completed the Machine Learning course offered through Stanford Online: [Verification](https://www.coursera.org/account/accomplishments/certificate/WEHTQAGU37TK)
+- Participatng in multiple interviews and hiring commities of SREs, Senior SREs, and Managers
+- Organized, created, and presented during the first Espresso SRE Hackday
 - Taught multiple SRE Bootcamps, teaching new hires all about the envionment at LinkedIn in and our custom tooling
 """
 
         [[params.jobs.list]]
         position = "Site Reliability Engineer"
         dates = "2017 - 2018"
-        company = "LinkedIn, Sunnyvale"
+        company = "LinkedIn - Sunnyvale, CA"
         details = """
 - Worked with multiple teams building the Espresso Data layer from the ground up for a new fabric
-- Provide documentation improvments for Espresso cluster creation, consuming tribal knowledge from multiple sources in to workable runbooks
-- Design, Built and Maintained 120+ node ELK cluster handling all of Espresso's logging data across 4 data centers
+- Provideed documentation improvments for Espresso cluster creation, consuming tribal knowledge from multiple sources in to workable runbooks
+- Designed, Built and Maintained 120+ node ELK cluster handling all of Espresso's logging data across 4 data centers
 - Built service overview dashboards for each Espresso owned service reducing both MTTR and MTTD
 - Took lead on multiple GDPR related Horizontal Initiatives, overseeing both the design, and resolution
 - Managed the data migration of multiple Espresso Clusters, involving cooperation between multiple teams both onsite and in Bangalore
@@ -169,50 +176,60 @@ With over a decade of real world experience under my belt, I wrote my first comp
         [[params.jobs.list]]
         position = "Site Reliability Engineer"
         dates = "2016 - 2017"
-        company = "Capital District Physicians Health Plan, Albany"
+        company = "Capital District Physicians Health Plan - Albany, NY"
         details = """
-- Actively managing a balance of Operational work and Development work to ensure important business services are up and fast
-- Provide Engineering and Development teams with custom tooling built off known frameworks to give them the data they need to do their job effectively
-- Design Ansible and CFengine code to automate operational and system level tasks to improve performance, provide a higher reliability and scale when needed 
-- Design and implement ELK log monitoring solution, with FileBeats, NXLog, Kafka, Logstash, ElasticSearch, Kibana"""
+- Actively managed a balance of Operational work and Development work to ensure important business services were up and responsive
+- Provided Engineering and Development teams with custom tooling built off known frameworks to give them the data they need to do their job more effectively
+- Designed Ansible and CFengine code to automate operational and system level tasks to improve performance, provide a higher reliability and scale when needed 
+- Designed and implemented ELK log monitoring solution, with FileBeats, NXLog, Kafka, Logstash, ElasticSearch, Kibana"""
 
         [[params.jobs.list]]
         position = "Systems Engineer II"
         dates = "2015 - 2016"
-        company = "Capital District Physicians Health Plan, Albany"
+        company = "Capital District Physicians Health Plan - Albany, NY"
         details = """
-- Design and implement integration systems between our Enterprise Monitoring solutions, our CMDB, Operator Runbook, ITSM Tool, and CFEngine our Configuration Management Platform
-- Coordinate with Directors and Architects to migrate and or upgrade applications, which involves working with different teams and developers
-- Design and implemented APM solution (AppDynamics) with integration into existing opsview environment
-- Currently focused on the design and implementation of the Mulesoft Enterprise Service Bus, which currently has both on premise and AWS components"""
-        
+- Designed and implemented custom integration systems between our enterprise monitoring solutions, CMDB, operator runbook, ITSM tool, and CFEngine our configuration management platform
+- Coordinated with directors and architects to migrate or upgrade our internal stack, which involved working with different teams and developers
+- Designed and implemented an APM solution (AppDynamics) with integration into existing Opsview monitoring environment
+- Focused on the design and implementation of the Mulesoft Enterprise Service Bus, which had both on-premise and AWS components"""
+
+        [[params.jobs.list]]
+        position = "Devops Contractor"
+        dates = "2015"
+        company = "Edhesive - Remote"
+        details = """
+- Designed and implemented automated backup and recovery solution for Rails and Flask based application, in AWS and in Google's App Engine
+- Designed and implemented robust logging and monitoring solution using free and open source software saving the startup money
+- Wrote detailed design documents and runbook information so future engineers could easily maintain the stack
+- Worked remotely without direct management, projects relied on me to see what was needed, design it, and implement it
+- Worked hand in hand with engineers across multiple timezones effectively gathering requirements and collaborating remotely
+"""
 
         [[params.jobs.list]]
         position = "Systems Engineer I"
         dates = "2014 - 2015"
-        company = "Capital District Physicians Health Plan, Albany"
+        company = "Capital District Physicians Health Plan - Albany, NY"
         details = """
 - Helped design, code and deployed configuration management from nothing to production
-- Currently this is a self-healing CFEngine solution backed with ansible used for ad-hoc tasks and building simple reports
-- Currently working to configure and deploy Opsview a Nagios fork to replace Tivoli Enterprise Portal
-- Handle day to day operational work like diagnosing web performance issues, code misconfigurations, as well as other internal infastructure issues"""
+- Self-healing CFEngine solution backed with Ansible used for ad-hoc tasks and building simple reports
+- Worked to configure and deploy Opsview a Nagios fork to replace Tivoli Enterprise Portal
+- Handled day to day operational work like diagnosing web performance issues, code misconfigurations, as well as other internal infastructure issues"""
 
         [[params.jobs.list]]
         position = "Linux Systems Administator"
         dates = "2010 - 2014"
-        company = "Xerox Litigation Services, Albany"
+        company = "Xerox Litigation Services - Albany, NY"
         details = """
 - Installed and maintained servers in multi-site tier 3 and 4 data centers located internationally
 - Overseas travel to work directly with clients on site to provide support for custom virtualized appliance as well as upgrade hardware and underlying system architecture for high availability and performance
 - Designed custom software solutions to reduce costs of operational expenses by utilizing open source solutions rather than purchasing enterprise
 - Engineer IT solutions to accommodate changing environments and project requirements from clients while actively working with other departments to resolve any issues in a timely manner
-- Worked on a rotating on call schedule providing support for all systems on off hours
-- Worked with US DoD Secret Clearance"""
+- Worked on a rotating on call schedule providing support for all systems on off hours"""
 
         [[params.jobs.list]]
         position = "NOC Operator"
         dates = "2007 - 2010"
-        company = "Xerox Litigation Services, Albany"
+        company = "Xerox Litigation Services - Albany, NY"
         details = """
 - Provided 24 hour support for Clients and Client Managers for all of the XLS products and infrastructure
 - Monitored logs and custom alerting software to initiate the resolution of any potential or incipient issues
@@ -225,23 +242,23 @@ With over a decade of real world experience under my belt, I wrote my first comp
         icon = "fa-archive"
         title = "Projects"
         intro = """
-**Open Source** A lot of my day to day work revolves around supporting the following open source products.
+**Open Source** Daily support of the following open source products
 """
 
         [[params.projects.list]]
         title = "Espresso"
         url = "https://engineering.linkedin.com/espresso/introducing-espresso-linkedins-hot-new-distributed-document-store"
-        tagline = "Espresso is LinkedIn's online, distributed, fault-tolerant NoSQL database that currently powers approximately 30 LinkedIn applications including Member Profile, InMail (LinkedIn's member-to-member messaging system), portions of the Homepage and mobile applications, etc."
+        tagline = "LinkedIn's online, distributed, fault-tolerant NoSQL database that currently powers approximately 30 LinkedIn applications including Member Profile, InMail (LinkedIn's member-to-member messaging system), portions of the Homepage and mobile applications, etc."
 
         [[params.projects.list]]
         title = "Kafka"
         url = "https://kafka.apache.org/"
-        tagline = "Apache Kafka® is a distributed streaming platform. Used across all engineering to stream data reliably."
+        tagline = "Distributed streaming platform. Used across all engineering to stream data reliably."
 
         [[params.projects.list]]
         title = "Helix"
         url = "https://git-wip-us.apache.org/repos/asf?p=helix.git;a=summary"
-        tagline = "Helix is a cluster management framework for partitioned and replicated distributed resources. Helix powers not only Espresso but numerous other technologies I've worked on at LinkedIn that require Master/Slave or Leader/Follower architectures."
+        tagline = "Cluster management framework for partitioned and replicated distributed resources. Helix powers not only Espresso but numerous other technologies I've worked on at LinkedIn that require Master/Slave or Leader/Follower architectures."
 
     # Skills section
     [params.skills]
