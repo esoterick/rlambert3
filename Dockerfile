@@ -2,7 +2,7 @@ FROM alpine/git
 COPY rlambert3.com /rlambert3.com
 WORKDIR /rlambert3.com
 RUN rm -rf themes/*
-RUN git clone https://github.com/aerohub/hugo-orbit-theme.git themes/hugo-orbit-theme
+RUN git clone https://github.com/esoterick/hugo-orbit-theme.git themes/hugo-orbit-theme
 
 FROM skyscrapers/hugo:0.46
 COPY --from=0 /rlambert3.com /rlambert3.com
