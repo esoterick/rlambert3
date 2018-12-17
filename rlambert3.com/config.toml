@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "http://rob.lolbert.com/"
+baseurl = "https://rob.lolbert.com/"
 languageCode = "en-us"
 title = "Robert J. Lambert III"
 theme = "hugo-orbit-theme"
