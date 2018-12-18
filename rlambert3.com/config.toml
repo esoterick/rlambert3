@@ -174,6 +174,18 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
 """
 
         [[params.jobs.list]]
+        position = "Devops Contractor"
+        dates = "2015"
+        company = "Edhesive - Remote"
+        details = """
+- Designed and implemented automated backup and recovery solution for Rails and Flask based application, in AWS and in Google's App Engine
+- Designed and implemented robust logging and monitoring solution using free and open source software saving the startup money
+- Wrote detailed design documents and runbook information so future engineers could easily maintain the stack
+- Worked remotely without direct management, projects relied on me to see what was needed, design it, and implement it
+- Worked hand in hand with engineers across multiple timezones effectively gathering requirements and collaborating remotely
+"""
+
+        [[params.jobs.list]]
         position = "Site Reliability Engineer"
         dates = "2016 - 2017"
         company = "Capital District Physicians Health Plan - Albany, NY"
@@ -192,18 +204,6 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
 - Coordinated with directors and architects to migrate or upgrade our internal stack, which involved working with different teams and developers
 - Designed and implemented an APM solution (AppDynamics) with integration into existing Opsview monitoring environment
 - Focused on the design and implementation of the Mulesoft Enterprise Service Bus, which had both on-premise and AWS components"""
-
-        [[params.jobs.list]]
-        position = "Devops Contractor"
-        dates = "2015"
-        company = "Edhesive - Remote"
-        details = """
-- Designed and implemented automated backup and recovery solution for Rails and Flask based application, in AWS and in Google's App Engine
-- Designed and implemented robust logging and monitoring solution using free and open source software saving the startup money
-- Wrote detailed design documents and runbook information so future engineers could easily maintain the stack
-- Worked remotely without direct management, projects relied on me to see what was needed, design it, and implement it
-- Worked hand in hand with engineers across multiple timezones effectively gathering requirements and collaborating remotely
-"""
 
         [[params.jobs.list]]
         position = "Systems Engineer I"
