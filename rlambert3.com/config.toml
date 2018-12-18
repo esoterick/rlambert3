@@ -145,19 +145,19 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
         dates = "2018 - Present"
         company = "LinkedIn - Sunnyvale, CA"
         details = """
-- Representing Espresso in multiple cross orginization stand ups providing both execution and single point of contact for our team
+- Representing Espresso in multiple cross-organization stand ups providing both execution and single point of contact for our team
 - Maintain multiple internal products including upgrading multiple legacy codebases to python3 and Go
 - Help with designing and implementing availability calculations for all Espresso clusters
 - Designing and implementing our global cross colo consistency calculation metric and SLA for Espresso
 - Working with developers in designing and implementing our Espresso Data Replication SLA and metrics
-- Working with new Espresso SREs getting them onboarded and able to contribute to our ecosystem in under 3 months
+- Working with new Espresso SREs getting them onboard and able to contribute to our ecosystem in under 3 months
 
 **Above and beyond**
 
-- Succfully completed the Machine Learning course offered through Stanford Online: [Verification](https://www.coursera.org/account/accomplishments/certificate/WEHTQAGU37TK)
-- Participatng in multiple interviews and hiring commities of SREs, Senior SREs, and Managers
+- Successfully completed the Machine Learning course offered through Stanford Online: [Verification](https://www.coursera.org/account/accomplishments/certificate/WEHTQAGU37TK)
+- Participating in multiple interviews and hiring committees of SREs, Senior SREs, and Managers
 - Organized, created, and presented during the first Espresso SRE Hackday
-- Taught multiple SRE Bootcamps, teaching new hires all about the envionment at LinkedIn in and our custom tooling
+- Taught multiple SRE Bootcamps, teaching new hires all about the environment at LinkedIn in and our custom tooling
 """
 
         [[params.jobs.list]]
@@ -166,23 +166,23 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
         company = "LinkedIn - Sunnyvale, CA"
         details = """
 - Worked with multiple teams building the Espresso Data layer from the ground up for a new fabric
-- Provideed documentation improvments for Espresso cluster creation, consuming tribal knowledge from multiple sources in to workable runbooks
+- Provided documentation improvements for Espresso cluster creation, consuming tribal knowledge from multiple sources into workable runbooks
 - Designed, Built and Maintained 120+ node ELK cluster handling all of Espresso's logging data across 4 data centers
 - Built service overview dashboards for each Espresso owned service reducing both MTTR and MTTD
-- Took lead on multiple GDPR related Horizontal Initiatives, overseeing both the design, and resolution
+- Took lead on multiple GDPR related horizontal initiatives, overseeing both the design and resolution
 - Managed the data migration of multiple Espresso Clusters, involving cooperation between multiple teams both onsite and in Bangalore
 """
 
         [[params.jobs.list]]
-        position = "Devops Contractor"
+        position = "DevOps Contractor"
         dates = "2015"
         company = "Edhesive - Remote"
         details = """
 - Designed and implemented automated backup and recovery solution for Rails and Flask based application, in AWS and in Google's App Engine
-- Designed and implemented robust logging and monitoring solution using free and open source software saving the startup money
+- Designed and implemented a robust logging and monitoring solution using free and open source software saving the startup money
 - Wrote detailed design documents and runbook information so future engineers could easily maintain the stack
 - Worked remotely without direct management, projects relied on me to see what was needed, design it, and implement it
-- Worked hand in hand with engineers across multiple timezones effectively gathering requirements and collaborating remotely
+- Worked hand in hand with engineers across multiple time zones effectively gathering requirements and collaborating remotely
 """
 
         [[params.jobs.list]]
@@ -213,25 +213,25 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
 - Helped design, code and deployed configuration management from nothing to production
 - Self-healing CFEngine solution backed with Ansible used for ad-hoc tasks and building simple reports
 - Worked to configure and deploy Opsview a Nagios fork to replace Tivoli Enterprise Portal
-- Handled day to day operational work like diagnosing web performance issues, code misconfigurations, as well as other internal infastructure issues"""
+- Handled day to day operational work like diagnosing web performance issues, code misconfigurations, as well as other internal infrastructure issues"""
 
         [[params.jobs.list]]
-        position = "Linux Systems Administator"
+        position = "Linux Systems Administrator"
         dates = "2010 - 2014"
         company = "Xerox Litigation Services - Albany, NY"
         details = """
 - Installed and maintained servers in multi-site tier 3 and 4 data centers located internationally
-- Overseas travel to work directly with clients on site to provide support for custom virtualized appliance as well as upgrade hardware and underlying system architecture for high availability and performance
-- Designed custom software solutions to reduce costs of operational expenses by utilizing open source solutions rather than purchasing enterprise
+- Overseas travel to work directly with clients on site to provide support for the custom virtualized appliance as well as upgrade hardware and underlying system architecture for high availability and performance
+- Designed custom software solutions to reduce costs of operational expenses by utilizing open source solutions rather than purchasing an enterprise solution
 - Engineer IT solutions to accommodate changing environments and project requirements from clients while actively working with other departments to resolve any issues in a timely manner
-- Worked on a rotating on call schedule providing support for all systems on off hours"""
+- Worked on a rotating on-call schedule providing support for all systems on off hours"""
 
         [[params.jobs.list]]
         position = "NOC Operator"
         dates = "2007 - 2010"
         company = "Xerox Litigation Services - Albany, NY"
         details = """
-- Provided 24 hour support for Clients and Client Managers for all of the XLS products and infrastructure
+- Provided 24-hour support for Clients and Client Managers for all of the XLS products and infrastructure
 - Monitored logs and custom alerting software to initiate the resolution of any potential or incipient issues
 - Programmed enhancements for our internal monitoring software one notable improvement was upgrading the web application to use AJAX over the old static layout
 """
