@@ -32,7 +32,7 @@ disable404 = true
     [params.profile]
         name = "Robert J. Lambert III"
         tagline = "Experienced Site Reliability Engineer"
-        avatar = "me.jpeg"
+        avatar = "me.png"
 
     # Contact section
     [params.contact]
