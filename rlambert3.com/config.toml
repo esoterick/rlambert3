@@ -45,12 +45,6 @@ disable404 = true
         title = "rob@rlambert3.com"
 
         [[params.contact.list]]
-        class = "phone"
-        icon = "fa-phone"
-        url = "tel:+5182270885"
-        title = "+5182270885"
-
-        [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
         url = "//rlambert3.com"
@@ -67,12 +61,6 @@ disable404 = true
         icon = "fa-github"
         url = "//github.com/esoterick"
         title = "github.com/esoterick"
-
-        [[params.contact.list]]
-        class = "twitter"
-        icon = "fa-twitter"
-        url = "//twitter.com/rlambert"
-        title = "@rlambert"
 
     # Education section
     [params.education]
@@ -131,7 +119,7 @@ disable404 = true
         icon = "fa-user"
         title = "Career Profile"
         summary = """
-I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, which inspired me to gain my college accreditation in Computer Information Systems, and pursue a professional career in this field. Now, with over ten years of professional, real-world experience, I find myself constantly in search of knowledge and new skill sets. Most recently, I've taken pride in harnessing and growing my leadership skills by working across multiple teams to solve complex distributed problems, in addition to solo projects.
+I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, which inspired me to gain my college accreditation in Computer Information Systems, and pursue a professional career in this field. Now, with over ten years of professional, real-world experience, I find myself constantly in search of knowledge and new skill sets. Most recently, I've taken pride in harnessing and growing my leadership skills by working across multiple teams to solve complex distributed problems at [LinkedIn](https://linkedin.com) where I work as a Senior SRE on the Distributed Data Systems Team.
 """
 
     # Experiences section
@@ -245,7 +233,7 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
         [[params.projects.list]]
         title = "Espresso"
         url = "https://engineering.linkedin.com/espresso/introducing-espresso-linkedins-hot-new-distributed-document-store"
-        tagline = "LinkedIn's online, distributed, fault-tolerant NoSQL database that currently powers over 30 LinkedIn applications including member profile, InMail (LinkedIn's member-to-member messaging system), portions of the homepage, mobile applications, and more."
+        tagline = "LinkedIn's online, distributed, fault-tolerant, NoSQL database that currently powers over 30 LinkedIn applications including member profile, InMail (LinkedIn's member-to-member messaging system), portions of the homepage, mobile applications, and more."
 
         [[params.projects.list]]
         title = "Kafka"
@@ -272,12 +260,12 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
         level = "95%"
 
         [[params.skills.list]]
-        skill = "Distributed Systems"
-        level = "95%"
-
-        [[params.skills.list]]
         skill = "Monitoring and Logging"
         level = "90%"
+
+        [[params.skills.list]]
+        skill = "Distributed Systems"
+        level = "85%"
 
         [[params.skills.list]]
         skill = "Java Performance Tuning"
