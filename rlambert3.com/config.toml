@@ -167,7 +167,7 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
 - Provided documentation improvements for [Espresso](https://engineering.linkedin.com/teams/data/projects/espresso) cluster creation, consuming tribal knowledge from multiple sources into useful runbooks
 - Designed, built and maintained 120+ node ELK cluster handling all of [Espresso](https://engineering.linkedin.com/teams/data/projects/espresso)'s logging data across 4 data centers
 - Built service overview dashboards for each [Espresso](https://engineering.linkedin.com/teams/data/projects/espresso) owned service reducing both MTTR and MTTD
-- Lead on 80% of all [Espresso](https://engineering.linkedin.com/teams/data/projects/espresso) GDPR related horizontal initiatives, overseeing both the design and resolution
+- Lead on 80% of all [Espresso](https://engineering.linkedin.com/teams/data/projects/espresso) [GDPR](https://gdpr-info.eu/) related horizontal initiatives, overseeing both the design and resolution
 - Oversaw the data migrations of [Espresso](https://engineering.linkedin.com/teams/data/projects/espresso) clusters, which involved coordinating between teams both onsite and offshore
 """
 
@@ -178,8 +178,8 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
         details = """
 - Maintained a balance of operational and development work to ensure critical business services were responsive
 - Provided engineering and development teams with custom tooling built off known frameworks
-- Designed Ansible and CFengine code to automate operational and system level tasks to improve performance, provide higher reliability and scale when needed
-- Designed and implemented ELK log monitoring solution, with FileBeats, NXLog, Kafka, Logstash, ElasticSearch, Kibana
+- Designed [Ansible](https://www.ansible.com/) and [CFengine](https://cfengine.com/) code to automate operational and system level tasks to improve performance, provide higher reliability and scale when needed
+- Designed and implemented ELK log monitoring solution, with [FileBeats](https://www.elastic.co/products/beats/filebeat), [NXLog](https://nxlog.co/products/nxlog-community-edition), [Kafka](https://kafka.apache.org/), [Logstash](https://www.elastic.co/products/logstash), [ElasticSearch](https://www.elastic.co/products/elasticsearch), [Kibana](https://www.elastic.co/products/kibana)
 """
 
         [[params.jobs.list]]
@@ -187,9 +187,9 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
         dates = "2015 - 2016"
         company = "Capital District Physicians Health Plan - Albany, NY"
         details = """
-- Designed and implemented custom integration systems between our enterprise monitoring solutions, CMDB, operator runbook, ITSM tool, and CFEngine our configuration management platform
-- Integrated APM solution (AppDynamics) with existing Opsview monitoring environment
-- Focused on the design and implementation of the Mulesoft Enterprise Service Bus, which had both on-premise and AWS components
+- Designed and implemented custom integration systems between our enterprise monitoring solutions, CMDB, operator runbook, ITSM tool, and [CFEngine](https://cfengine.com/) our configuration management platform
+- Integrated APM solution [AppDynamics](https://www.appdynamics.com/) with existing [Opsview](https://www.opsview.com/) monitoring environment
+- Focused on the design and implementation of the [Mulesoft Enterprise Service Bus](https://www.mulesoft.com/), which had both on-premise and [AWS](https://aws.amazon.com/) components
 """
 
         [[params.jobs.list]]
@@ -198,7 +198,7 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
         company = "Capital District Physicians Health Plan - Albany, NY"
         details = """
 - Built CFEngine solution backed with Ansible ad-hoc tasks for constructing simple reports
-- Replaced Tivoli Enterprise Portal with Nagios fork Opsview
+- Replaced [Tivoli Enterprise Portal](https://www.ibm.com/support/knowledgecenter/en/SS4EKN_7.2.0/com.ibm.itm.doc_6.3/install/tep_overview.htm) with Nagios fork [Opsview](https://opsview.com/)
 - Handled day to day operational work such as: diagnosing web performance issues, code misconfigurations, as well as other internal infrastructure problems
 """
 
@@ -208,7 +208,7 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
         company = "Edhesive - Remote"
         details = """
 - Collaborated remotely with engineers across the country to gather detailed project requirements
-- Built automated backup and recovery solution for Rails and Flask based application, in AWS and in Google's App Engine
+- Built automated backup and recovery solution for Rails and Flask based application, in [AWS](https://aws.amazon.com/) and [GAE](https://cloud.google.com/appengine/)
 - Wrote detailed design documents and runbook information
 """
 
@@ -228,7 +228,7 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
         dates = "2007 - 2010"
         company = "Xerox Litigation Services - Albany, NY"
         details = """
-- Provided 24-hour support for Clients and Client Managers for all of the XLS products and infrastructure
+- Provided 24-hour support for Clients and Client Managers for all of the [XLS](https://www.conduent.com/legal-business-services/) products and infrastructure
 - Monitored logs and custom alerting software to initiate the resolution of any potential or incipient issues
 - Programmed enhancements for internal monitoring software such as upgrading the web application to use AJAX over the old static layout
 """
@@ -245,17 +245,17 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
         [[params.projects.list]]
         title = "Espresso"
         url = "https://engineering.linkedin.com/espresso/introducing-espresso-linkedins-hot-new-distributed-document-store"
-        tagline = "LinkedIn's online, distributed, fault-tolerant NoSQL database that currently powers approximately 30 LinkedIn applications including Member Profile, InMail (LinkedIn's member-to-member messaging system), portions of the Homepage and mobile applications, etc."
+        tagline = "LinkedIn's online, distributed, fault-tolerant NoSQL database that currently powers over 30 LinkedIn applications including member profile, InMail (LinkedIn's member-to-member messaging system), portions of the homepage, mobile applications, and more."
 
         [[params.projects.list]]
         title = "Kafka"
         url = "https://kafka.apache.org/"
-        tagline = "Distributed streaming platform. Used across all engineering to stream data reliably."
+        tagline = "Distributed streaming platform. Used across all engineering to stream data reliably. Used by Espresso to handle cross data center replication."
 
         [[params.projects.list]]
         title = "Helix"
         url = "https://git-wip-us.apache.org/repos/asf?p=helix.git;a=summary"
-        tagline = "Cluster management framework for partitioned and replicated distributed resources. Helix powers not only [Espresso](https://engineering.linkedin.com/teams/data/projects/espresso) but numerous other technologies I've worked on at LinkedIn that require Master/Slave or Leader/Follower architectures."
+        tagline = "Cluster management framework for partitioned and replicated distributed resources. Helix powers not only [Espresso](https://engineering.linkedin.com/teams/data/projects/espresso) but numerous other technologies I've worked on at LinkedIn that require Master/Slave or Active/Passive architectures."
 
     # Skills section
     [params.skills]
