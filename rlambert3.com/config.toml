@@ -86,7 +86,7 @@ disable404 = true
 
     # Languages section
     [params.language]
-        enable = true
+        enable = false
         title = "Languages"
 
         [[params.language.list]]
@@ -145,19 +145,17 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
         dates = "2018 - Present"
         company = "LinkedIn - Sunnyvale, CA"
         details = """
-- Representing Espresso in multiple cross-organization stand ups providing both execution and single point of contact for our team
-- Maintain multiple internal products including upgrading multiple legacy codebases to python3 and Go
-- Help with designing and implementing availability calculations for all Espresso clusters
-- Designing and implementing our global cross colo consistency calculation metric and SLA for Espresso
-- Working with developers in designing and implementing our Espresso Data Replication SLA and metrics
-- Working with new Espresso SREs getting them onboard and able to contribute to our ecosystem in under 3 months
+- Represent LinkedIn's Espresso Team in cross-organizational stand-ups to provide both executions of complex tasks, and act as a single point of contact for our team
+- Maintain multiple internal products which include upgrading multiple legacy codebases to Python3 and Go
+- Design and implement global availability, cross data center consistency, and cross data center latency metrics and SLAs for all Espresso clusters
+- Train and onboard new Espresso SREs enable them to contribute to our ecosystem in under 3 months
 
 **Above and beyond**
 
-- Successfully completed the Machine Learning course offered through Stanford Online: [Verification](https://www.coursera.org/account/accomplishments/certificate/WEHTQAGU37TK)
-- Participating in multiple interviews and hiring committees of SREs, Senior SREs, and Managers
-- Organized, created, and presented during the first Espresso SRE Hackday
-- Taught multiple SRE Bootcamps, teaching new hires all about the environment at LinkedIn in and our custom tooling
+- Completed the Machine Learning course offered through Stanford Online: [Verification](https://www.coursera.org/account/accomplishments/certificate/WEHTQAGU37TK)
+- Member of the interview and hiring committees of SREs, Senior SREs, and Managers
+- Organized, hosted, and presented the first Espresso SRE Hackday
+- Taught ongoing SRE Bootcamp series, as part of new hire onboarding process
 """
 
         [[params.jobs.list]]
@@ -165,24 +163,12 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
         dates = "2017 - 2018"
         company = "LinkedIn - Sunnyvale, CA"
         details = """
-- Worked with multiple teams building the Espresso Data layer from the ground up for a new fabric
-- Provided documentation improvements for Espresso cluster creation, consuming tribal knowledge from multiple sources into workable runbooks
-- Designed, Built and Maintained 120+ node ELK cluster handling all of Espresso's logging data across 4 data centers
+- Cross collaborated across teams to build the Espresso Data layer for a new logical data center
+- Provided documentation improvements for Espresso cluster creation, consuming tribal knowledge from multiple sources into useful runbooks
+- Designed, built and maintained 120+ node ELK cluster handling all of Espresso's logging data across 4 data centers
 - Built service overview dashboards for each Espresso owned service reducing both MTTR and MTTD
-- Took lead on multiple GDPR related horizontal initiatives, overseeing both the design and resolution
-- Managed the data migration of multiple Espresso Clusters, involving cooperation between multiple teams both onsite and in Bangalore
-"""
-
-        [[params.jobs.list]]
-        position = "DevOps Contractor"
-        dates = "2015"
-        company = "Edhesive - Remote"
-        details = """
-- Designed and implemented automated backup and recovery solution for Rails and Flask based application, in AWS and in Google's App Engine
-- Designed and implemented a robust logging and monitoring solution using free and open source software saving the startup money
-- Wrote detailed design documents and runbook information so future engineers could easily maintain the stack
-- Worked remotely without direct management, projects relied on me to see what was needed, design it, and implement it
-- Worked hand in hand with engineers across multiple time zones effectively gathering requirements and collaborating remotely
+- Lead on 80% of all Espresso GDPR related horizontal initiatives, overseeing both the design and resolution
+- Oversaw the data migrations of Espresso clusters, which involved coordinating between teams both onsite and offshore
 """
 
         [[params.jobs.list]]
@@ -190,10 +176,11 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
         dates = "2016 - 2017"
         company = "Capital District Physicians Health Plan - Albany, NY"
         details = """
-- Actively managed a balance of Operational work and Development work to ensure important business services were up and responsive
-- Provided Engineering and Development teams with custom tooling built off known frameworks to give them the data they need to do their job more effectively
-- Designed Ansible and CFengine code to automate operational and system level tasks to improve performance, provide a higher reliability and scale when needed
-- Designed and implemented ELK log monitoring solution, with FileBeats, NXLog, Kafka, Logstash, ElasticSearch, Kibana"""
+- Maintained a balance of operational and development work to ensure critical business services were responsive
+- Provided engineering and development teams with custom tooling built off known frameworks
+- Designed Ansible and CFengine code to automate operational and system level tasks to improve performance, provide higher reliability and scale when needed
+- Designed and implemented ELK log monitoring solution, with FileBeats, NXLog, Kafka, Logstash, ElasticSearch, Kibana
+"""
 
         [[params.jobs.list]]
         position = "Systems Engineer II"
@@ -201,19 +188,29 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
         company = "Capital District Physicians Health Plan - Albany, NY"
         details = """
 - Designed and implemented custom integration systems between our enterprise monitoring solutions, CMDB, operator runbook, ITSM tool, and CFEngine our configuration management platform
-- Coordinated with directors and architects to migrate or upgrade our internal stack, which involved working with different teams and developers
-- Designed and implemented an APM solution (AppDynamics) with integration into existing Opsview monitoring environment
-- Focused on the design and implementation of the Mulesoft Enterprise Service Bus, which had both on-premise and AWS components"""
+- Integrated APM solution (AppDynamics) with existing Opsview monitoring environment
+- Focused on the design and implementation of the Mulesoft Enterprise Service Bus, which had both on-premise and AWS components
+"""
 
         [[params.jobs.list]]
         position = "Systems Engineer I"
         dates = "2014 - 2015"
         company = "Capital District Physicians Health Plan - Albany, NY"
         details = """
-- Helped design, code and deployed configuration management from nothing to production
-- Self-healing CFEngine solution backed with Ansible used for ad-hoc tasks and building simple reports
-- Worked to configure and deploy Opsview a Nagios fork to replace Tivoli Enterprise Portal
-- Handled day to day operational work like diagnosing web performance issues, code misconfigurations, as well as other internal infrastructure issues"""
+- Built CFEngine solution backed with Ansible ad-hoc tasks for constructing simple reports
+- Replaced Tivoli Enterprise Portal with Nagios fork Opsview
+- Handled day to day operational work such as: diagnosing web performance issues, code misconfigurations, as well as other internal infrastructure problems
+"""
+
+        [[params.jobs.list]]
+        position = "DevOps Contractor"
+        dates = "2015"
+        company = "Edhesive - Remote"
+        details = """
+- Collaborated remotely with engineers across the country to gather detailed project requirements
+- Built automated backup and recovery solution for Rails and Flask based application, in AWS and in Google's App Engine
+- Wrote detailed design documents and runbook information
+"""
 
         [[params.jobs.list]]
         position = "Linux Systems Administrator"
@@ -221,10 +218,10 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
         company = "Xerox Litigation Services - Albany, NY"
         details = """
 - Installed and maintained servers in multi-site tier 3 and 4 data centers located internationally
-- Overseas travel to work directly with clients on site to provide support for the custom virtualized appliance as well as upgrade hardware and underlying system architecture for high availability and performance
+- Traveled overseas to work directly with clients on site to provide support for the custom virtualized appliance
 - Designed custom software solutions to reduce costs of operational expenses by utilizing open source solutions rather than purchasing an enterprise solution
-- Engineer IT solutions to accommodate changing environments and project requirements from clients while actively working with other departments to resolve any issues in a timely manner
-- Worked on a rotating on-call schedule providing support for all systems on off hours"""
+- Engineered IT solutions to accommodate changing environments and project requirements from clients while actively working with other departments to resolve any issues in a timely manner
+"""
 
         [[params.jobs.list]]
         position = "NOC Operator"
@@ -233,7 +230,7 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
         details = """
 - Provided 24-hour support for Clients and Client Managers for all of the XLS products and infrastructure
 - Monitored logs and custom alerting software to initiate the resolution of any potential or incipient issues
-- Programmed enhancements for our internal monitoring software one notable improvement was upgrading the web application to use AJAX over the old static layout
+- Programmed enhancements for internal monitoring software such as upgrading the web application to use AJAX over the old static layout
 """
 
     # Projects section
