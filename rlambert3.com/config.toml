@@ -41,14 +41,14 @@ disable404 = true
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: rob@rlambert3.com"
-        title = "rob@rlambert3.com"
+        url = "mailto: rlambert85@gmail.com"
+        title = "rlambert85@gmail.com"
 
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//rlambert3.com"
-        title = "rlambert3.com"
+        url = "//rob.lolbert.com"
+        title = "rob.lolbert.com"
 
         [[params.contact.list]]
         class = "linkedin"
@@ -136,14 +136,14 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
 - Represent LinkedIn's [Espresso](https://engineering.linkedin.com/teams/data/projects/espresso) Team in cross-organizational stand-ups to provide both executions of complex tasks, and act as a single point of contact for our team
 - Maintain multiple internal products which include upgrading multiple legacy codebases to Python3 and Go
 - Design and implement global availability, cross data center consistency, and cross data center latency metrics and SLAs for all [Espresso](https://engineering.linkedin.com/teams/data/projects/espresso) clusters
-- Train and onboard new [Espresso](https://engineering.linkedin.com/teams/data/projects/espresso) SREs enable them to contribute to our ecosystem in under 3 months
+- Train and onboard new [Espresso](https://engineering.linkedin.com/teams/data/projects/espresso) SREs, enabling them to contribute to our ecosystem in under 3 months
 
 **Above and beyond**
 
 - Completed the Machine Learning course offered through Stanford Online: [Verification](https://www.coursera.org/account/accomplishments/certificate/WEHTQAGU37TK)
 - Member of the interview and hiring committees of SREs, Senior SREs, and Managers
-- Organized, hosted, and presented the first [Espresso](https://engineering.linkedin.com/teams/data/projects/espresso) SRE Hackday
-- Taught ongoing SRE Bootcamp series, as part of new hire onboarding process
+- Organized, hosted, and presented at the first [Espresso](https://engineering.linkedin.com/teams/data/projects/espresso) SRE Hackday
+- Teach ongoing SRE Bootcamp series, as part of new hire onboarding process
 """
 
         [[params.jobs.list]]
@@ -151,11 +151,11 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
         dates = "2017 - 2018"
         company = "LinkedIn - Sunnyvale, CA"
         details = """
-- Cross collaborated across teams to build the [Espresso](https://engineering.linkedin.com/teams/data/projects/espresso) Data layer for a new logical data center
+- Collaborated across teams to build the [Espresso](https://engineering.linkedin.com/teams/data/projects/espresso) Data layer for a new logical data center
 - Provided documentation improvements for [Espresso](https://engineering.linkedin.com/teams/data/projects/espresso) cluster creation, consuming tribal knowledge from multiple sources into useful runbooks
 - Designed, built and maintained 120+ node ELK cluster handling all of [Espresso](https://engineering.linkedin.com/teams/data/projects/espresso)'s logging data across 4 data centers
 - Built service overview dashboards for each [Espresso](https://engineering.linkedin.com/teams/data/projects/espresso) owned service reducing both MTTR and MTTD
-- Lead on 80% of all [Espresso](https://engineering.linkedin.com/teams/data/projects/espresso) [GDPR](https://gdpr-info.eu/) related horizontal initiatives, overseeing both the design and resolution
+- Acted as lead on 80% of all [Espresso](https://engineering.linkedin.com/teams/data/projects/espresso) [GDPR](https://gdpr-info.eu/) related horizontal initiatives, overseeing both the design and resolution
 - Oversaw the data migrations of [Espresso](https://engineering.linkedin.com/teams/data/projects/espresso) clusters, which involved coordinating between teams both onsite and offshore
 """
 
