@@ -129,8 +129,29 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
         title = "Experiences"
 
         [[params.jobs.list]]
+        position = "Senior Infrastructure Engineer - Data Architecture"
+        dates = "2020 - Present"
+        company = "DigitalOcean- Remote"
+        details = """
+- Mesos, Marathon
+- Hadoop, HDFS, Hive, Spark
+- Presto
+- Kafka
+- Data Design architecture documents
+"""
+
+        [[params.jobs.list]]
+        position = "Senior Infrastructure Engineer - Data Architecture"
+        dates = "2019 - 2020"
+        company = "DigitalOcean - Remote"
+        details = """
+- Chef
+- Chef Automate
+"""
+
+        [[params.jobs.list]]
         position = "Senior Site Reliability Engineer"
-        dates = "2018 - Present"
+        dates = "2018 - 2019"
         company = "LinkedIn - Sunnyvale, CA"
         details = """
 - Represent LinkedIn's [Espresso](https://engineering.linkedin.com/teams/data/projects/espresso) Team in cross-organizational stand-ups to provide both executions of complex tasks, and act as a single point of contact for our team
