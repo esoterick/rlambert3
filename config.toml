@@ -8,9 +8,9 @@ googleAnalytics = "UA-13189879-6"
 publishDir = "docs"
 
 # Do not build files for websites. Need them? Set to false
-disableRSS = true
-disableSitemap = true
-disable404 = true
+disableRSS = false
+disableSitemap = false
+disable404 = false
 
 [params]
 
@@ -33,7 +33,7 @@ disable404 = true
     [params.profile]
         name = "Robert J. Lambert III"
         tagline = "Experienced Site Reliability Engineer"
-        avatar = "me.png"
+        avatar = "it-me.png"
 
     # Contact section
     [params.contact]
@@ -120,7 +120,7 @@ disable404 = true
         icon = "fa-user"
         title = "Career Profile"
         summary = """
-I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, which inspired me to gain my college accreditation in Computer Information Systems, and pursue a professional career in this field. Now, with over ten years of professional, real-world experience, I find myself constantly in search of knowledge and new skill sets. Most recently, I've taken pride in harnessing and growing my leadership skills by working across multiple teams to solve complex distributed problems at [LinkedIn](https://linkedin.com) where I work as a Senior SRE on the Distributed Data Systems Team.
+I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, which inspired me to gain my college accreditation in Computer Information Systems, and pursue a professional career in this field. Now, with over ten years of professional, real-world experience, I find myself constantly in search of knowledge and new skill sets. Most recently, I've taken pride in working on multiple new teams as the need arrises to assist in improving the stability and reliability of systems at [DigitalOcean](https://www.digitalocean.com/).
 """
 
     # Experiences section
@@ -132,22 +132,26 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
         [[params.jobs.list]]
         position = "Senior Infrastructure Engineer - Data Architecture"
         dates = "2020 - Present"
-        company = "DigitalOcean- Remote"
+        company = "DigitalOcean - Remote"
         details = """
-- Mesos, Marathon
-- Hadoop, HDFS, Hive, Spark
-- Presto
-- Kafka
-- Data Design architecture documents
+- Mesos, Marathon - Monitor, Troubleshoot, Maintain, Improve and Extend the legacy Mesos stack. Managed deployment of configs via [Ansible](https://www.ansible.com/)  Currently the stack runs multiple high priority internal workloads this includes many but is not limited to the applications below
+- Hadoop, HDFS, Hive, Spark - Currently maintaining the Production Hadoop stack at DigitalOcean this includes the listed products. Some highlights include improvment in monitoring with custom Hadoop/HDFS exporters
+- Presto - Currently being used to query data across numerous sources of truth I have been assisting in any troubleshooting required for this high profile application.
+- Kafka - Provide internal support for legacy kafka platform as well as refresh monitoring tasks while clients work to move to the newer Kafka solution
+- Create Data Workflow design documents, architecture design documents, and other high level design documents to provide the facts management needs to help make critical design decissions for future proofing our environments
 """
 
         [[params.jobs.list]]
-        position = "Senior Infrastructure Engineer - Data Architecture"
+        position = "Senior Infrastructure Engineer - Infrastructure Core"
         dates = "2019 - 2020"
         company = "DigitalOcean - Remote"
         details = """
-- Chef
-- Chef Automate
+- Chef - 
+- Chef Automate - Built Chef Cookbooks for the deployment of Chef Automate HA cluster which included ElasticSearch, PostgreSQL and Nginx components
+- Built automation around tasks that wasted engineer time and that we're prone to error
+- Built reusable [Terraform](https://www.terraform.io/) modules for internal users to deploy private virtual machines to mange internal tooling, complete with 
+- Built generic workflow for [Atlantis](https://www.runatlantis.io/) allowing internal users to move to a more secure (using [Vault](https://www.vaultproject.io/)) automated [Terraform](https://www.terraform.io/) provisioning experience
+- Built [Chef](https://www.chef.io/) module using [Optimizely](https://www.optimizely.com/) for scheduling and tracking [Chef](https://www.chef.io/) deployment changes across our entire fleet of machines
 """
 
         [[params.jobs.list]]
