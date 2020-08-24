@@ -5,6 +5,7 @@ languageCode = "en-us"
 title = "Robert J. Lambert III"
 theme = "hugo-orbit-theme"
 googleAnalytics = "UA-13189879-6"
+publishDir = "docs"
 
 # Do not build files for websites. Need them? Set to false
 disableRSS = true
