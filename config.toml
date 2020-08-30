@@ -3,7 +3,7 @@
 baseurl = "https://rob.lolbert.com/"
 languageCode = "en-us"
 title = "Robert J. Lambert III"
-theme = "hugo-orbit-theme"
+theme = "dev-resume"
 googleAnalytics = "UA-13189879-6"
 publishDir = "docs"
 
@@ -73,6 +73,12 @@ disable404 = false
         college = "Hudson Valley Community College, Troy, NY"
         dates = ""
 
+    # Education section
+    [params.certs]
+        [[params.certs.list]]
+        cert = "[Machine Learning](https://www.coursera.org/account/accomplishments/certificate/WEHTQAGU37TK)"
+        location = "Stanford Online"
+
     # Languages section
     [params.language]
         enable = false
@@ -133,34 +139,32 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Senior Infrastructure Engineer - Data Program Group"
+        position = "Senior Infrastructure Engineer"
         dates = "2020 - Present"
         company = "DigitalOcean - Remote"
         details = """
-Currently working as  Senior Engineer under the Data Program group at Digital Ocean, which entails a large group of internal product ownership. My responsibilities include but are not limited to maintaining our legacy Mesos environment, and the majority of the applications running in that environment. Currently, focusing on migrating the platform for a hardware refresh.
+Currently working as Senior Engineer under the Data Program group at [DigitalOcean](https://www.digitalocean.com/), which entails a large group of internal product ownership. My responsibilities include but are not limited to maintaining our legacy Mesos environment, and the majority of the applications running in that environment. Currently, focusing on migrating the platform for a hardware refresh.
 
 - Monitor, troubleshoot, maintain, extend and improve the legacy Mesos stack
-- Deploy changes thousands of containers running on this cluster using Ansible, and Chef
-- Built custom reports against this platform using Bash, Ansible and Pythnon
+- Deploy changes to thousands of containers running on this cluster using Ansible, and Chef
+- Built custom automated reports against this platform using Bash, Ansible and Pythnon
 - Managed deployment of configs via [Ansible](https://www.ansible.com/) the current stack runs multiple high priority internal workloads this includes many but is not limited to the applications below
-- Currently maintaining the production Hadoop stack at DigitalOcean 
+- Currently maintaining the production Hadoop stack at [DigitalOcean](https://www.digitalocean.com/) 
 - Some highlights include improvment in monitoring with custom Hadoop/HDFS exporters
-- Assisting in troubleshooting Presto's application stack for this high profile application cluster
 - Provide support for one of our legacy Kafka platforms as well as refresh monitoring while developers work to migrate to a newer Kafka platform
-- Create Data Workflow design documents, architecture design documents, and other high level design documents to provide information to management to help make critical design decissions for our environments
+- Create design documents, architecture designs, and other high level design documents to provide information to management to help make critical design decissions for our environments
 """
 
         [[params.jobs.list]]
-        position = "Senior Infrastructure Engineer - Infrastructure Core"
+        position = "Senior Infrastructure Engineer"
         dates = "2019 - 2020"
         company = "DigitalOcean - Remote"
         details = """
-
 Was brought in on the Infrastructre Core team to help troubleshoot fix the aging Chef Platform. Worked on root cause analysis for multiple chef build pipeline issues affecting tens of thousands of hosts in production. Worked with numerous intneral teams to support them in building and scaling their Chef cookbooks using Chef best practices.
 
 - Determine RCA on issues reguarding Chef builds and deployments
-- Built Chef Cookbooks for the deployment of Chef Automate HA cluster which included ElasticSearch, PostgreSQL and Nginx components
-- Built internal service utilizing Okta and Vault allowing new DigitalOcean Developers to self service deploy their own chef user
+- Built Chef Cookbooks for the deployment of [Chef Automate](https://www.chef.io/products/automate) HA cluster which included ElasticSearch, PostgreSQL and Nginx components
+- Built internal service utilizing Okta and Vault allowing new [DigitalOcean](https://www.digitalocean.com/) Developers to self service deploy their own chef user
 - Built Chef module using [Optimizely](https://www.optimizely.com/) for scheduling and tracking Chef deployment changes across our entire fleet of machines
 - Built automation around tasks that wasted engineer time and that we're prone to error
 - Built reusable [Terraform](https://www.terraform.io/) modules for internal users to deploy private virtual machines to mange internal tooling, complete with 
@@ -201,7 +205,7 @@ Was brought in on the Infrastructre Core team to help troubleshoot fix the aging
         [[params.jobs.list]]
         position = "Site Reliability Engineer"
         dates = "2016 - 2017"
-        company = "Capital District Physicians Health Plan - Albany, NY"
+        company = "CDPHP - Albany, NY"
         details = """
 - Maintained a balance of operational and development work to ensure critical business services were responsive
 - Provided engineering and development teams with custom tooling built off known frameworks
@@ -212,7 +216,7 @@ Was brought in on the Infrastructre Core team to help troubleshoot fix the aging
         [[params.jobs.list]]
         position = "Systems Engineer II"
         dates = "2015 - 2016"
-        company = "Capital District Physicians Health Plan - Albany, NY"
+        company = "CDPHP - Albany, NY"
         details = """
 - Designed and implemented custom integration systems between our enterprise monitoring solutions, CMDB, operator runbook, ITSM tool, and [CFEngine](https://cfengine.com/) our configuration management platform
 - Integrated APM solution [AppDynamics](https://www.appdynamics.com/) with existing [Opsview](https://www.opsview.com/) monitoring environment
@@ -222,7 +226,7 @@ Was brought in on the Infrastructre Core team to help troubleshoot fix the aging
         [[params.jobs.list]]
         position = "Systems Engineer I"
         dates = "2014 - 2015"
-        company = "Capital District Physicians Health Plan - Albany, NY"
+        company = "CDPHP - Albany, NY"
         details = """
 - Built CFEngine solution backed with Ansible ad-hoc tasks for constructing simple reports
 - Replaced [Tivoli Enterprise Portal](https://www.ibm.com/support/knowledgecenter/en/SS4EKN_7.2.0/com.ibm.itm.doc_6.3/install/tep_overview.htm) with Nagios fork [Opsview](https://opsview.com/)
@@ -242,7 +246,7 @@ Was brought in on the Infrastructre Core team to help troubleshoot fix the aging
         [[params.jobs.list]]
         position = "Linux Systems Administrator"
         dates = "2010 - 2014"
-        company = "Xerox Litigation Services - Albany, NY"
+        company = "Xerox - Albany, NY"
         details = """
 - Installed and maintained servers in multi-site tier 3 and 4 data centers located internationally
 - Traveled overseas to work directly with clients on site to provide support for the custom virtualized appliance
@@ -253,7 +257,7 @@ Was brought in on the Infrastructre Core team to help troubleshoot fix the aging
         [[params.jobs.list]]
         position = "NOC Operator"
         dates = "2007 - 2010"
-        company = "Xerox Litigation Services - Albany, NY"
+        company = "Xerox - Albany, NY"
         details = """
 - Provided 24-hour support for Clients and Client Managers for all of the [XLS](https://www.conduent.com/legal-business-services/) products and infrastructure
 - Monitored logs and custom alerting software to initiate the resolution of any potential or incipient issues
@@ -292,35 +296,48 @@ Was brought in on the Infrastructre Core team to help troubleshoot fix the aging
 
         [[params.skills.list]]
         skill = "Linux"
-        level = "98%"
 
         [[params.skills.list]]
-        skill = "Python, Go"
-        level = "95%"
+        skill = "Bash"
 
         [[params.skills.list]]
-        skill = "Configuration Management and Automation"
-        level = "92%"
+        skill = "Python"
+
+        [[params.skills.list]]
+        skill = "Rust"
+
+        [[params.skills.list]]
+        skill = "C/C++"
+
+        [[params.skills.list]]
+        skill = "Chef"
+
+        [[params.skills.list]]
+        skill = "Ansible"
+
+        [[params.skills.list]]
+        skill = "Terraform"
+
+        [[params.skills.list]]
+        skill = "Vault"
+
+        [[params.skills.list]]
+        skill = "Consul"
+
+        [[params.skills.list]]
+        skill = "Docker"
+
+        [[params.skills.list]]
+        skill = "Kubernetes"
 
         [[params.skills.list]]
         skill = "Monitoring and Logging"
-        level = "90%"
 
         [[params.skills.list]]
         skill = "Distributed Systems"
-        level = "85%"
 
         [[params.skills.list]]
-        skill = "Apache Mesos"
-        level = "75%"
-
-        [[params.skills.list]]
-        skill = "Apache Hadoop"
-        level = "75%"
-
-        [[params.skills.list]]
-        skill = "Java Performance Tuning"
-        level = "65%"
+        skill = "Performance Tuning"
 
     # Footer section
 
