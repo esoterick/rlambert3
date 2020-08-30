@@ -96,10 +96,13 @@ disable404 = false
         title = "Interests"
 
         [[params.interests.list]]
+        interest = "My Family"
+
+        [[params.interests.list]]
         interest = "My Dogs"
 
         [[params.interests.list]]
-        interest = "Programming"
+        interest = "Graphics and Game Programming"
 
         [[params.interests.list]]
         interest = "3D Printing"
@@ -130,15 +133,21 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Senior Infrastructure Engineer - Data Architecture"
+        position = "Senior Infrastructure Engineer - Data Program Group"
         dates = "2020 - Present"
         company = "DigitalOcean - Remote"
         details = """
-- Mesos, Marathon - Monitor, Troubleshoot, Maintain, Improve and Extend the legacy Mesos stack. Managed deployment of configs via [Ansible](https://www.ansible.com/)  Currently the stack runs multiple high priority internal workloads this includes many but is not limited to the applications below
-- Hadoop, HDFS, Hive, Spark - Currently maintaining the Production Hadoop stack at DigitalOcean this includes the listed products. Some highlights include improvment in monitoring with custom Hadoop/HDFS exporters
-- Presto - Currently being used to query data across numerous sources of truth I have been assisting in any troubleshooting required for this high profile application.
-- Kafka - Provide internal support for legacy kafka platform as well as refresh monitoring tasks while clients work to move to the newer Kafka solution
-- Create Data Workflow design documents, architecture design documents, and other high level design documents to provide the facts management needs to help make critical design decissions for future proofing our environments
+Currently working as  Senior Engineer under the Data Program group at Digital Ocean, which entails a large group of internal product ownership. My responsibilities include but are not limited to maintaining our legacy Mesos environment, and the majority of the applications running in that environment. Currently, focusing on migrating the platform for a hardware refresh.
+
+- Monitor, troubleshoot, maintain, extend and improve the legacy Mesos stack
+- Deploy changes thousands of containers running on this cluster using Ansible, and Chef
+- Built custom reports against this platform using Bash, Ansible and Pythnon
+- Managed deployment of configs via [Ansible](https://www.ansible.com/) the current stack runs multiple high priority internal workloads this includes many but is not limited to the applications below
+- Currently maintaining the production Hadoop stack at DigitalOcean 
+- Some highlights include improvment in monitoring with custom Hadoop/HDFS exporters
+- Assisting in troubleshooting Presto's application stack for this high profile application cluster
+- Provide support for one of our legacy Kafka platforms as well as refresh monitoring while developers work to migrate to a newer Kafka platform
+- Create Data Workflow design documents, architecture design documents, and other high level design documents to provide information to management to help make critical design decissions for our environments
 """
 
         [[params.jobs.list]]
@@ -146,12 +155,16 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
         dates = "2019 - 2020"
         company = "DigitalOcean - Remote"
         details = """
-- Chef - 
-- Chef Automate - Built Chef Cookbooks for the deployment of Chef Automate HA cluster which included ElasticSearch, PostgreSQL and Nginx components
+
+Was brought in on the Infrastructre Core team to help troubleshoot fix the aging Chef Platform. Worked on root cause analysis for multiple chef build pipeline issues affecting tens of thousands of hosts in production. Worked with numerous intneral teams to support them in building and scaling their Chef cookbooks using Chef best practices.
+
+- Determine RCA on issues reguarding Chef builds and deployments
+- Built Chef Cookbooks for the deployment of Chef Automate HA cluster which included ElasticSearch, PostgreSQL and Nginx components
+- Built internal service utilizing Okta and Vault allowing new DigitalOcean Developers to self service deploy their own chef user
+- Built Chef module using [Optimizely](https://www.optimizely.com/) for scheduling and tracking Chef deployment changes across our entire fleet of machines
 - Built automation around tasks that wasted engineer time and that we're prone to error
 - Built reusable [Terraform](https://www.terraform.io/) modules for internal users to deploy private virtual machines to mange internal tooling, complete with 
 - Built generic workflow for [Atlantis](https://www.runatlantis.io/) allowing internal users to move to a more secure (using [Vault](https://www.vaultproject.io/)) automated [Terraform](https://www.terraform.io/) provisioning experience
-- Built [Chef](https://www.chef.io/) module using [Optimizely](https://www.optimizely.com/) for scheduling and tracking [Chef](https://www.chef.io/) deployment changes across our entire fleet of machines
 """
 
         [[params.jobs.list]]
@@ -278,12 +291,16 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Linux & Bash"
+        skill = "Linux"
         level = "98%"
 
         [[params.skills.list]]
-        skill = "Python & Go"
+        skill = "Python, Go"
         level = "95%"
+
+        [[params.skills.list]]
+        skill = "Configuration Management and Automation"
+        level = "92%"
 
         [[params.skills.list]]
         skill = "Monitoring and Logging"
@@ -294,8 +311,16 @@ I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, 
         level = "85%"
 
         [[params.skills.list]]
-        skill = "Java Performance Tuning"
+        skill = "Apache Mesos"
         level = "75%"
+
+        [[params.skills.list]]
+        skill = "Apache Hadoop"
+        level = "75%"
+
+        [[params.skills.list]]
+        skill = "Java Performance Tuning"
+        level = "65%"
 
     # Footer section
 
