@@ -148,9 +148,9 @@ Currently working as Senior Engineer under the Data Program group at [DigitalOce
 - Monitor, troubleshoot, maintain, extend and improve the legacy Mesos stack
 - Deploy changes to thousands of containers running on this cluster using Ansible, and Chef
 - Built custom automated reports against this platform using Bash, Ansible and Pythnon
-- Managed deployment of configs via [Ansible](https://www.ansible.com/) the current stack runs multiple high priority internal workloads this includes many but is not limited to the applications below
+- Managed deployment of configs via [Ansible](https://www.ansible.com/) the current stack runs multiple high priority internal workloads
 - Currently maintaining the production Hadoop stack at [DigitalOcean](https://www.digitalocean.com/) 
-- Some highlights include improvment in monitoring with custom Hadoop/HDFS exporters
+- Improvment in monitoring with custom Hadoop/HDFS exporters
 - Provide support for one of our legacy Kafka platforms as well as refresh monitoring while developers work to migrate to a newer Kafka platform
 - Create design documents, architecture designs, and other high level design documents to provide information to management to help make critical design decissions for our environments
 """
