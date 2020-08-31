@@ -2,7 +2,7 @@
 
 baseurl = "https://rob.lolbert.com/"
 languageCode = "en-us"
-title = "Robert J. Lambert III"
+title = "Resume of Robert J. Lambert III"
 theme = "dev-resume"
 googleAnalytics = "UA-13189879-6"
 publishDir = "docs"
