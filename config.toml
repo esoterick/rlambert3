@@ -114,6 +114,9 @@ disable404 = false
         interest = "3D Printing"
 
         [[params.interests.list]]
+        interest = "Music Production"
+
+        [[params.interests.list]]
         interest = "Home Automation"
 
         [[params.interests.list]]
