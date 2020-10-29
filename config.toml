@@ -150,12 +150,12 @@ Currently working as Senior Engineer under the Data Program group at [DigitalOce
 
 - Monitor, troubleshoot, maintain, extend and improve the legacy Mesos stack
 - Deploy changes to thousands of containers running on this cluster using Ansible, and Chef
-- Built custom automated reports against this platform using Bash, Ansible and Pythnon
+- Built custom automated reports against this platform using Bash, Ansible and Python
 - Managed deployment of configs via [Ansible](https://www.ansible.com/) the current stack runs multiple high priority internal workloads
 - Currently maintaining the production Hadoop stack at [DigitalOcean](https://www.digitalocean.com/) 
-- Improvment in monitoring with custom Hadoop/HDFS exporters
+- Improvement in monitoring with custom Hadoop/HDFS exporters
 - Provide support for one of our legacy Kafka platforms as well as refresh monitoring while developers work to migrate to a newer Kafka platform
-- Create design documents, architecture designs, and other high level design documents to provide information to management to help make critical design decissions for our environments
+- Create design documents, architecture designs, and other high level design documents to provide information to management to help make critical design decisions for our environments
 """
 
         [[params.jobs.list]]
@@ -163,9 +163,9 @@ Currently working as Senior Engineer under the Data Program group at [DigitalOce
         dates = "2019 - 2020"
         company = "DigitalOcean - Remote"
         details = """
-Was brought in on the Infrastructre Core team to help troubleshoot and fix the aging Chef Platform. Worked on root cause analysis for multiple chef build pipeline issues affecting tens of thousands of hosts in production. Worked with numerous interal teams to support them in building and scaling their Chef cookbooks using Chef best practices.
+Was brought in on the Infrastructure Core team to help troubleshoot and fix the aging Chef Platform. Worked on root cause analysis for multiple chef build pipeline issues affecting tens of thousands of hosts in production. Worked with numerous internal teams to support them in building and scaling their Chef cookbooks using Chef best practices.
 
-- Determine RCA on issues reguarding Chef builds and deployments
+    - Determine RCA on issues regarding Chef builds and deployments
 - Built Chef Cookbooks for the deployment of [Chef Automate](https://www.chef.io/products/automate) HA cluster which included ElasticSearch, PostgreSQL and Nginx components
 - Built internal service utilizing Okta and Vault allowing new [DigitalOcean](https://www.digitalocean.com/) Developers to self service deploy their own chef user
 - Built Chef module using [Optimizely](https://www.optimizely.com/) for scheduling and tracking Chef deployment changes across our entire fleet of machines
