@@ -132,7 +132,7 @@ disable404 = false
         icon = "fa-user"
         title = "Career Profile"
         summary = """
-I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, which inspired me to gain my college accreditation in Computer Information Systems, and pursue a professional career in this field. Now, with over 13 years of professional, real-world experience, I find myself constantly in search of knowledge and new skill sets. Most recently, I've taken pride in working on multiple new teams as the need arrises to assist in improving the stability and reliability of systems at [DigitalOcean](https://www.digitalocean.com/).
+I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, which inspired me to gain my college accreditation in Computer Information Systems, and pursue a professional career in this field. Now, with over 13 years of professional, real-world experience, I find myself constantly in search of knowledge and new skill sets. Most recently, I've taken pride in working on multiple new teams as the need arises to assist in improving the stability and reliability of systems at [DigitalOcean](https://www.digitalocean.com/).
 """
 
     # Experiences section
