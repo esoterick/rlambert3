@@ -1,0 +1,18 @@
+name = "dev-resume"
+license = "MIT"
+licenselink = "./license.txt"
+description = "Responsive Resume/CV Theme for Developers"
+homepage = "//rob.lolbert.com"
+tags = ["cv", "resume", "color schemes"]
+features = ["responsive", "color schemes"]
+min_version = 0.16
+
+[author]
+  name = "Robert Lambert"
+  homepage = "//github.com/esoterick"
+
+# If porting an existing theme
+[original]
+  name = "Xiaoying Riley"
+  homepage = "//github.com/xriley"
+  repo = "//github.com/xriley/DevResume-Theme"
