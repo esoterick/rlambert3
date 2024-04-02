@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <title>Robert J. Lambert III</title>
+  
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/saira-extra-condensed@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/open-sans@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="https://rlambert3.com/main.css">
+
+  
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+
+<script src="https://rlambert3.com/elasticlunr.min.js" defer></script>
+
+<script src="https://rlambert3.com/search_index.en.js" defer></script>
+
+
+
+
+  
+  
+<!-- RSS -->
+
+
+  
+
+  
+  
+</head>
+
+<body>
+  <aside id="sidebar" class="menu is-hidden-touch">
+    
+
+<div style="display:block;margin:auto auto 0;padding:.5rem">
+    <figure class="image">
+        <img id="avatar" class="is-rounded" src="https://rlambert3.com/media/it-me.png">
+    </figure>
+</div>
+
+
+    
+<ul id="menu" class="menu-list">
+    
+
+<li data-menuanchor="about"><a href="https://rlambert3.com/#anchor_about">ABOUT</a></li>   
+
+ 
+<li data-menuanchor="skills"><a href="https://rlambert3.com/#anchor_skills">SKILLS</a></li>
+
+
+ 
+<li data-menuanchor="opensource"><a href="https://rlambert3.com/#anchor_opensource">OPEN SOURCE</a></li>
+
+
+ 
+<li data-menuanchor="experience"><a href="https://rlambert3.com/#anchor_experience">EXPERIENCE</a></li>
+
+
+
+</ul>
+
+  </aside>
+  
+<div class="modal" id="copyTarget">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <section class="modal-card-body">
+      <textarea class="textarea" id="bibtex-content" placeholder="e.g. Hello world"  readonly></textarea>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="button" id="copyButton">Copy to clipboard</button>
+    </footer>
+  </div>
+</div>
+
+  <div id="content">
+    <!-- Content -->
+    
+<div id="fullpage">
+  
+  <div class="section hero is-fullheight page" id="about">
+    
+
+<div class="is-flex is-flex-direction-column" style="height: 100%;">
+  <div class="flex: 1;">
+    <h1>Robert <span class="text-primary">J. Lambert III</span></h1>
+    <h2 class="subtitle">
+      New York ·  <a href="mailto:robert.j.lambert@pm.me">robert.j.lambert@pm.me</a>
+    </h2>
+  </div>
+  <div class="is-flex is-flex-direction-column is-justify-content-center" style="flex: 1; overflow: auto;">
+    <div class="content" style="overflow: auto; padding-top: 1.5rem;">
+      <h3 id="hi-there-i-m-robert-lambert-an-experienced-site-reliability-and-systems-engineer">Hi there, I'm Robert Lambert. An experienced Site Reliability and Systems Engineer.</h3>
+<p>I wrote my first computer program over 20 years ago on a Commodore 64 in BASIC, which inspired me to gain my college accreditation in Computer Information Systems, and pursue a professional career in this field. Now, with over 13 years of professional, real-world experience, I find myself constantly in search of knowledge and new skill sets. Most recently, I’ve taken pride in working on multiple new teams as the need arises to assist in improving the stability and reliability of systems at DigitalOcean.</p>
+<ul>
+<li>I am currently working as a <strong>Senior Infrastructure Engineer II</strong> @ <a href="https://digitalocean.com">DigitalOcean</a></li>
+<li>My GitHub <a href="https://github.com/esoterick">Overview</a></li>
+</ul>
+
+    </div>
+    <div class="is-hidden-touch">
+      <h3>Socialization</h3>
+      
+      
+      <a href="https:&#x2F;&#x2F;github.com&#x2F;esoterick"
+        style="font-size: 1.75rem;" data-toggle="tooltip" title="GitHub" data-offset="0,10" rel="me">
+        <span class="fa-stack">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+      
+      <a href="https:&#x2F;&#x2F;linkedin.com&#x2F;in&#x2F;rlambert85"
+        style="font-size: 1.75rem;" data-toggle="tooltip" title="LinkedIn" data-offset="0,10" rel="me">
+        <span class="fa-stack">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+      
+    </div>
+  </div>
+</div>
+
+  </div>
+  
+
+  
+  <div class="section hero is-fullheight page" id="skills">
+    
+
+<div class="is-flex is-flex-direction-column is-justify-content-center" style="height: 100%;">
+  <h2>skills</h2>
+  <div style="overflow: auto;">
+    
+    <div style="padding-bottom: 1rem;">
+      <h3 style="color: #868e96;">Professional and Social</h3>
+      <div>
+        
+        
+        
+        <span class="icon"><i class="devicon-bash-plain"></i></span>Effective communication
+        
+        
+        
+        
+        
+        <span class="icon"><i class="devicon-bash-plain"></i></span>Team player
+        
+        
+        
+        
+        
+        <span class="icon"><i class="devicon-bash-plain"></i></span>Strong problem solver
+        
+        
+        
+      </div>
+    </div>
+    
+    <div style="padding-bottom: 1rem;">
+      <h3 style="color: #868e96;">Languages and Tools</h3>
+      <div>
+        
+        
+        
+        <span class="icon"><i class="devicon-cplusplus-plain"></i></span>C&#x2F;C++
+        
+        
+        
+        
+        <span class="icon"><i class="devicon-rust-plain"></i></span>Rust
+        
+        
+        
+        <span class="icon"><i class="devicon-go-plain"></i></span>Go
+        
+        
+        
+        <span class="icon"><i class="devicon-java-plain"></i></span>Java
+        
+        
+        
+        <span class="icon"><i class="devicon-python-plain"></i></span>Python
+        
+        
+        
+        
+        <span class="icon"><i class="devicon-nixos-plain"></i></span>Nix
+        
+        
+        
+        
+        <span class="icon"><i class="devicon-git-plain"></i></span>git
+        
+        
+        
+        <span class="icon"><i class="devicon-linux-plain"></i></span>linux
+        
+        
+        
+        <span class="icon"><i class="devicon-bash-plain"></i></span>bash
+        
+        
+        
+        <span class="icon"><i class="devicon-javascript-plain"></i></span>javascript
+        
+        
+      </div>
+    </div>
+    
+    <div style="padding-bottom: 1rem;">
+      <h3 style="color: #868e96;">Operating Systems</h3>
+      <div>
+        
+        
+        
+        <span class="icon"><i class="devicon-nixos-plain"></i></span>NixOS
+        
+        
+        
+        
+        <span class="icon"><i class="devicon-fedora-plain"></i></span>Fedora
+        
+        
+        
+        
+        <span class="icon"><i class="devicon-ubuntu-plain"></i></span>Debian&#x2F;Ubuntu
+        
+        
+        
+      </div>
+    </div>
+    
+    <div style="padding-bottom: 1rem;">
+      <h3 style="color: #868e96;">Configuration and Infrastructure Management</h3>
+      <div>
+        
+        
+        
+        <span class="icon"><i class="devicon-bash-plain"></i></span>Chef
+        
+        
+        
+        
+        <span class="icon"><i class="devicon-ansible-plain"></i></span>Ansible
+        
+        
+        
+        <span class="icon"><i class="devicon-terraform-plain"></i></span>Terraform
+        
+        
+        
+        <span class="icon"><i class="devicon-consul-plain"></i></span>Consul
+        
+        
+        
+        <span class="icon"><i class="devicon-vault-plain"></i></span>Vault
+        
+        
+        
+        <span class="icon"><i class="devicon-nomad-plain"></i></span>Nomad
+        
+        
+      </div>
+    </div>
+    
+    <div style="padding-bottom: 1rem;">
+      <h3 style="color: #868e96;">Data Management</h3>
+      <div>
+        
+        
+        
+        <span class="icon"><i class="devicon-mysql-plain"></i></span>MySQL&#x2F;MariaDB
+        
+        
+        
+        
+        
+        <span class="icon"><i class="devicon-bash-plain"></i></span>Sqlite
+        
+        
+        
+        
+        <span class="icon"><i class="devicon-postgresql-plain"></i></span>postgresql
+        
+        
+        
+        <span class="icon"><i class="devicon-prometheus-plain"></i></span>prometheus
+        
+        
+        
+        
+        <span class="icon"><i class="devicon-bash-plain"></i></span>Victoria Metrics
+        
+        
+        
+      </div>
+    </div>
+    
+    <div style="padding-bottom: 1rem;">
+      <h3 style="color: #868e96;">Observability and Monitoring</h3>
+      <div>
+        
+        
+        <span class="icon"><i class="devicon-grafana-plain"></i></span>grafana
+        
+        
+        
+        <span class="icon"><i class="devicon-kibana-plain"></i></span>kibana
+        
+        
+        
+        
+        <span class="icon"><i class="devicon-bash-plain"></i></span>Lightstep
+        
+        
+        
+        
+        <span class="icon"><i class="devicon-sentry-plain"></i></span>sentry
+        
+        
+        
+        
+        <span class="icon"><i class="devicon-bash-plain"></i></span>Victoria Metrics
+        
+        
+        
+      </div>
+    </div>
+    
+    <div style="padding-bottom: 1rem;">
+      <h3 style="color: #868e96;">Architecture</h3>
+      <div>
+        
+        
+        
+        <span class="icon"><i class="devicon-bash-plain"></i></span>Distributed Systems
+        
+        
+        
+        
+        
+        <span class="icon"><i class="devicon-bash-plain"></i></span>System Resiliancy
+        
+        
+        
+        
+        
+        <span class="icon"><i class="devicon-bash-plain"></i></span>Secure System Design
+        
+        
+        
+        
+        
+        <span class="icon"><i class="devicon-bash-plain"></i></span>REST
+        
+        
+        
+        
+        
+        <span class="icon"><i class="devicon-bash-plain"></i></span>RPC
+        
+        
+        
+      </div>
+    </div>
+    
+    <div style="padding-bottom: 1rem;">
+      <h3 style="color: #868e96;">Containers &amp; Cloud</h3>
+      <div>
+        
+        
+        
+        <span class="icon"><i class="devicon-docker-plain"></i></span>Docker
+        
+        
+        
+        
+        
+        <span class="icon"><i class="devicon-digitalocean-plain"></i></span>DigitalOcean
+        
+        
+        
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+  </div>
+  
+
+  
+
+  
+  <div class="section hero is-fullheight page" id="opensource">
+    
+
+<div class="is-flex is-flex-direction-column is-justify-content-center" style="height: 100%;">
+  <h2><a href="https:&#x2F;&#x2F;rlambert3.com&#x2F;opensource&#x2F;">opensource</a></h2>
+  <div class="is-hidden-touch">
+    <p>A collection of efforts to which I contributed, but did not create. Contributing back to Open Source projects is a strong passion of mine, and requires a considerate approach to learn norms, standards and approach for each community for a successful merge!</p>
+
+  </div>
+  
+  <div class="pb-6 pt-2" style="overflow: auto;">
+    
+    
+    <div class="mb-5">
+      <nav class="level mb-0">
+        <div class="level-left">
+          <div class="level-item">
+            <h3 class="post-title"><a href="https:&#x2F;&#x2F;rlambert3.com&#x2F;opensource&#x2F;cinc-server-exporter&#x2F;">esoterick&#x2F;cinc_server_exporter</a></h3>
+          </div>
+          
+        </div>
+        <div class="level-right is-hidden-touch">
+          <div class="level-item">
+            <span class="post-date">2023-05-23</span>
+          </div>
+        </div>
+      </nav>
+      <div class="is-flex is-flex-direction-row">
+        
+        <div class="content" style="width: 100%;">
+          
+          <figure class="image is-128x128" style="float:left;">
+            
+            <img src="https://rlambert3.com/media/rust-logo-blk.svg">
+            
+          </figure>
+          
+          <p>A prometheus exporter for CINC Server and CINC compatible configuration management solutions.</p>
+
+          <a href="https:&#x2F;&#x2F;rlambert3.com&#x2F;opensource&#x2F;cinc-server-exporter&#x2F;">Read More</a>
+        </div>
+        
+      </div>
+      
+      <div class="tags">
+        
+        <span class="tag"><a href="/tags/rust">Rust</a></span>
+        
+        <span class="tag"><a href="/tags/cinc">CINC</a></span>
+        
+      </div>
+      
+    </div>
+    
+    
+    
+    <div class="mb-5">
+      <nav class="level mb-0">
+        <div class="level-left">
+          <div class="level-item">
+            <h3 class="post-title"><a href="https:&#x2F;&#x2F;rlambert3.com&#x2F;opensource&#x2F;chipate&#x2F;">esoterick&#x2F;chipate</a></h3>
+          </div>
+          
+        </div>
+        <div class="level-right is-hidden-touch">
+          <div class="level-item">
+            <span class="post-date">2017-06-04</span>
+          </div>
+        </div>
+      </nav>
+      <div class="is-flex is-flex-direction-row">
+        
+        <div class="content" style="width: 100%;">
+          
+          <figure class="image is-128x128" style="float:left;">
+            
+            <img src="https://rlambert3.com/media/rust-logo-blk.svg">
+            
+          </figure>
+          
+          <p>Chipate is a simple CHIP-8 emulator I created as a quick introduction in to building emulators. I also used this project to help me learn the Rust Programming language.</p>
+
+          <a href="https:&#x2F;&#x2F;rlambert3.com&#x2F;opensource&#x2F;chipate&#x2F;">Read More</a>
+        </div>
+        
+      </div>
+      
+      <div class="tags">
+        
+        <span class="tag"><a href="/tags/rust">Rust</a></span>
+        
+        <span class="tag"><a href="/tags/emulation">Emulation</a></span>
+        
+      </div>
+      
+    </div>
+    
+    
+  </div>
+  
+</div>
+
+  </div>
+  
+
+  
+
+  
+  <div class="section hero is-fullheight page" id="experience">
+    
+
+<div class="is-flex is-flex-direction-column is-justify-content-center" style="height: 100%;">
+  <h2>experience</h2>
+  <div style="overflow: auto;">
+    
+    <div class="mb-5">
+      <nav class="level mb-0">
+        <div class="level-left">
+          <div class="level-item">
+            <h3>Senior Engineer II</h3>
+          </div>
+        </div>
+        <div class="level-right is-hidden-touch">
+          <div class="level-item">
+            2022 - Present
+          </div>
+        </div>
+      </nav>
+      <div class="is-flex is-flex-direction-column is-align-items-start">
+        <h2 class="subtitle"><a href="https://digitalocean.com/">DigitalOcean</a></h2>
+        <div>
+          <ul>
+<li>• Built my first rust crate to fill a gap in monitoring in our multi-region CINC server environment</li>
+<li>• Designed and Built a next-gen bare metal deployment system built on top of Nomad</li>
+<li>• Help maintain the internal fork of our terraform provider</li>
+<li>• Setup the internal Terraform Provider Repository in Artifactory</li>
+<li>• Built pull based distributed CINC model to reduce load on CINC servers</li>
+<li>• Integrated Sentry in to numerous services and tools under our ownership</li>
+<li>• Integrated Lightstep in to numerous services and tools under our ownership</li>
+</ul>
+
+        </div>
+      </div>
+    </div>
+    
+    <div class="mb-5">
+      <nav class="level mb-0">
+        <div class="level-left">
+          <div class="level-item">
+            <h3>Senior Engineer I</h3>
+          </div>
+        </div>
+        <div class="level-right is-hidden-touch">
+          <div class="level-item">
+            2019 - 2022
+          </div>
+        </div>
+      </nav>
+      <div class="is-flex is-flex-direction-column is-align-items-start">
+        <h2 class="subtitle"><a href="https://digitalocean.com/">DigitalOcean</a></h2>
+        <div>
+          <ul>
+<li>• Monitor, troubleshoot, maintain, extend and improve the legacy Mesos stack</li>
+<li>• Deploy changes to thousands of containers running on this cluster using Ansible, and Chef</li>
+<li>• Built custom automated reports against this platform using Bash, Ansible and Python</li>
+<li>• Managed deployment of configs via Ansible the current stack runs multiple high priority internal workloads</li>
+<li>• Improvement in monitoring with custom Hadoop/HDFS exporters</li>
+<li>• Provide support for one of our legacy Kafka platforms as well as refresh monitoring while developers work to migrate to a newer Kafka platform</li>
+<li>• Create design documents, architecture designs, and other high level design documents to provide information to management to help make critical design decisions for our environments</li>
+<li>• Determine RCA on issues regarding Chef builds and deployments</li>
+<li>• Built Chef Cookbooks for the deployment of Chef Automate HA cluster which included ElasticSearch, PostgreSQL and Nginx components</li>
+<li>• Built internal service utilizing Okta and Vault allowing new DigitalOcean Developers to self service deploy their own chef user</li>
+<li>• Built Chef module using Optimizely for scheduling and tracking Chef deployment changes across our entire fleet of machines</li>
+<li>• Built automation around tasks that wasted engineer time and that we’re prone to error</li>
+<li>• Built reusable Terraform modules for internal users to deploy private virtual machines to mange internal tooling, complete with</li>
+<li>• Built generic workflow for Atlantis allowing internal users to move to a more secure (using Vault) automated Terraform provisioning experience</li>
+</ul>
+
+        </div>
+      </div>
+    </div>
+    
+    <div class="mb-5">
+      <nav class="level mb-0">
+        <div class="level-left">
+          <div class="level-item">
+            <h3>Senior Site Reliability Engineer</h3>
+          </div>
+        </div>
+        <div class="level-right is-hidden-touch">
+          <div class="level-item">
+            2018 - 2019
+          </div>
+        </div>
+      </nav>
+      <div class="is-flex is-flex-direction-column is-align-items-start">
+        <h2 class="subtitle"><a href="https://www.linkedin.com/">LinkedIn</a></h2>
+        <div>
+          <ul>
+<li>• Represented LinkedIn’s Espresso Team in cross-organizational stand-ups to provide both executions of complex tasks, and act as a single point of contact for our team</li>
+<li>• Maintained multiple internal products which included upgrading multiple legacy codebases to Python3 and Go</li>
+<li>• Designed and implemented global availability, cross data center consistency, and cross data center latency metrics and SLAs for all Espresso clusters</li>
+<li>• Trained and onboarded new Espresso SREs, which enabled them to contribute to our ecosystem in under 3 months</li>
+<li></li>
+<li><strong>Above and beyond</strong></li>
+<li>• Completed the Machine Learning course offered through Stanford Online: Verification</li>
+<li>• Member of the interview and hiring committees of SREs, Senior SREs, and Managers</li>
+<li>• Organized, hosted, and presented at the first Espresso SRE Hackday</li>
+<li>• Taught ongoing SRE Bootcamp series, as part of the new hire onboarding process</li>
+</ul>
+
+        </div>
+      </div>
+    </div>
+    
+    <div class="mb-5">
+      <nav class="level mb-0">
+        <div class="level-left">
+          <div class="level-item">
+            <h3>Site Reliability Engineer</h3>
+          </div>
+        </div>
+        <div class="level-right is-hidden-touch">
+          <div class="level-item">
+            2017 - 2018
+          </div>
+        </div>
+      </nav>
+      <div class="is-flex is-flex-direction-column is-align-items-start">
+        <h2 class="subtitle"><a href="https://www.linkedin.com/">LinkedIn</a></h2>
+        <div>
+          <ul>
+<li>• Collaborated across teams to build the Espresso Data layer for a new logical data center</li>
+<li>• Provided documentation improvements for Espresso cluster creation, consuming tribal knowledge from multiple sources into useful runbooks</li>
+<li>• Designed, built and maintained 120+ node ELK cluster handling all of Espresso’s logging data across 4 data centers</li>
+<li>• Built service overview dashboards for each Espresso owned service reducing both MTTR and MTTD</li>
+<li>• Acted as lead on 80% of all Espresso GDPR related horizontal initiatives, overseeing both the design and resolution</li>
+<li>• Oversaw the data migrations of Espresso clusters, which involved coordinating between teams both onsite and offshore</li>
+</ul>
+
+        </div>
+      </div>
+    </div>
+    
+    <div class="mb-5">
+      <nav class="level mb-0">
+        <div class="level-left">
+          <div class="level-item">
+            <h3>Site Reliability Engineer</h3>
+          </div>
+        </div>
+        <div class="level-right is-hidden-touch">
+          <div class="level-item">
+            2016 - 2017
+          </div>
+        </div>
+      </nav>
+      <div class="is-flex is-flex-direction-column is-align-items-start">
+        <h2 class="subtitle"><a href="https://www.cdphp.com/">CDPHP</a></h2>
+        <div>
+          <ul>
+<li>• Maintained a balance of operational and development work to ensure critical business services were responsive</li>
+<li>• Provided engineering and development teams with custom tooling built off known frameworks</li>
+<li>• Designed Ansible and CFengine code to automate operational and system level tasks to improve performance, provide higher reliability and scale when needed</li>
+<li>• Designed and implemented ELK log monitoring solution, with FileBeats, NXLog, Kafka, Logstash, ElasticSearch, Kibana</li>
+</ul>
+
+        </div>
+      </div>
+    </div>
+    
+    <div class="mb-5">
+      <nav class="level mb-0">
+        <div class="level-left">
+          <div class="level-item">
+            <h3>Systems Engineer II</h3>
+          </div>
+        </div>
+        <div class="level-right is-hidden-touch">
+          <div class="level-item">
+            2015 - 2016
+          </div>
+        </div>
+      </nav>
+      <div class="is-flex is-flex-direction-column is-align-items-start">
+        <h2 class="subtitle"><a href="https://www.cdphp.com/">CDPHP</a></h2>
+        <div>
+          <ul>
+<li>• Designed and implemented custom integration systems between our enterprise monitoring solutions, CMDB, operator runbook, ITSM tool, and CFEngine our configuration management platform</li>
+<li>• Integrated APM solution AppDynamics with existing Opsview monitoring environment</li>
+<li>• Focused on the design and implementation of the Mulesoft Enterprise Service Bus, which had both on-premise and AWS components</li>
+</ul>
+
+        </div>
+      </div>
+    </div>
+    
+    <div class="mb-5">
+      <nav class="level mb-0">
+        <div class="level-left">
+          <div class="level-item">
+            <h3>Systems Engineer I</h3>
+          </div>
+        </div>
+        <div class="level-right is-hidden-touch">
+          <div class="level-item">
+            2014 - 2015
+          </div>
+        </div>
+      </nav>
+      <div class="is-flex is-flex-direction-column is-align-items-start">
+        <h2 class="subtitle"><a href="https://www.cdphp.com/">CDPHP</a></h2>
+        <div>
+          Built CFEngine solution backed with Ansible ad-hoc tasks for constructing simple reports</p>
+<ul>
+<li>• Replaced Tivoli Enterprise Portal with Nagios fork Opsview</li>
+<li>• Handled day to day operational work such as: diagnosing web performance issues, code misconfigurations, as well as other internal infrastructure problems</li>
+</ul>
+
+        </div>
+      </div>
+    </div>
+    
+    <div class="mb-5">
+      <nav class="level mb-0">
+        <div class="level-left">
+          <div class="level-item">
+            <h3>Linux Systems Administrator</h3>
+          </div>
+        </div>
+        <div class="level-right is-hidden-touch">
+          <div class="level-item">
+            2010 - 2014
+          </div>
+        </div>
+      </nav>
+      <div class="is-flex is-flex-direction-column is-align-items-start">
+        <h2 class="subtitle"><a href="https://www.xerox.com/en-us/services/transforming-legal-practices">Xerox Litigation Services</a></h2>
+        <div>
+          <ul>
+<li>• Installed and maintained servers in multi-site tier 3 and 4 data centers located internationally</li>
+<li>• Traveled overseas to work directly with clients on site to provide support for the custom virtualized appliance</li>
+<li>• Designed custom software solutions to reduce costs of operational expenses by utilizing open source solutions rather than purchasing an enterprise solution</li>
+<li>• Engineered IT solutions to accommodate changing environments and project requirements from clients while actively working with other departments to resolve any issues in a timely manner</li>
+</ul>
+
+        </div>
+      </div>
+    </div>
+    
+    <div class="mb-5">
+      <nav class="level mb-0">
+        <div class="level-left">
+          <div class="level-item">
+            <h3>NOC Operator</h3>
+          </div>
+        </div>
+        <div class="level-right is-hidden-touch">
+          <div class="level-item">
+            2007 - 2010
+          </div>
+        </div>
+      </nav>
+      <div class="is-flex is-flex-direction-column is-align-items-start">
+        <h2 class="subtitle"><a href="https://www.xerox.com/en-us/services/transforming-legal-practices">Xerox Litigation Services</a></h2>
+        <div>
+          <ul>
+<li>• Provided 24-hour support for Clients and Client Managers for all of the XLS products and infrastructure</li>
+<li>• Monitored logs and custom alerting software to initiate the resolution of any potential or incipient issues</li>
+<li>• Programmed enhancements for internal monitoring software such as upgrading the web application to use AJAX over the old static layout</li>
+</ul>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+</div>
+
+  </div>
+  
+
+  
+
+  
+
+</div>
+
+  </div>
+  
+<script>
+  function show_bib(bib_path) {
+    $.ajax({
+      url: bib_path,
+      success: function (data) {
+        $("#bibtex-content").text(data);
+        $("#copyTarget").addClass("is-active");
+      },
+    });
+  }
+
+  document
+    .getElementById("copyButton")
+    .addEventListener("click", function () {
+      var copyText = document.getElementById("bibtex-content");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      $("#copyTarget").removeClass("is-active");
+    });
+</script>
+
+  
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/fullpage.js@3.1.2/dist/fullpage.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fullpage.js@3.1.2/vendors/scrolloverflow.min.js"></script>
+<script type="text/javascript">
+    var fullpages = new fullpage('#fullpage', {
+        menu: '#menu',
+        setRecordHistory: false,
+        anchors: [
+             'anchor_about',         
+             'anchor_skills',        
+            
+             'anchor_opensource',    
+            
+             'anchor_experience',    
+            
+            
+        ],
+        afterResize: function( width, height ){
+		    if (width < 936) {
+                fullpage_api.setAutoScrolling(false);
+            } else {
+                fullpage_api.setAutoScrolling(true);
+            }
+	    }
+    });
+    if (screen.width < 936){
+        fullpages.setAutoScrolling(false);
+    }
+
+</script>
+
+</body>
+
+</html>
