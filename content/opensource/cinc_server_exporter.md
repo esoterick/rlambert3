@@ -12,4 +12,6 @@ taxonomies:
     - CINC
 ---
 
-omgomgomg
+CINC Server Exporter
+
+A prometheus exporter for CINC Server and CINC compatible configuration management solutions.
