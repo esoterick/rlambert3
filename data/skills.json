@@ -1,0 +1,142 @@
+[
+  {
+    "grouping": "Professional and Social",
+    "skills": [
+      {
+        "name": "Effective communication",
+        "icon": "bash"
+      },
+      {
+        "name": "Team player",
+        "icon": "bash"
+      },
+      {
+        "name": "Strong problem solver",
+        "icon": "bash"
+      }
+    ]
+  },
+  {
+    "grouping": "Languages and Tools",
+    "skills": [
+      {
+        "name": "C/C++",
+        "icon": "cplusplus"
+      },
+      "Rust",
+      "Go",
+      "Java",
+      "Python",
+      {
+        "name": "Nix",
+        "icon": "nixos"
+      },
+      "git",
+      "linux",
+      "bash",
+      "javascript"
+    ]
+  },
+  {
+    "grouping": "Operating Systems",
+    "skills": [
+      {
+        "name": "NixOS",
+        "icon": "nixos"
+      },
+      "Fedora",
+      {
+        "name": "Debian/Ubuntu",
+        "icon": "ubuntu"
+      }
+    ]
+  },
+  {
+    "grouping": "Configuration and Infrastructure Management",
+    "skills": [
+      {
+        "name": "Chef",
+        "icon": "bash"
+      },
+      "Ansible",
+      "Terraform",
+      "Consul",
+      "Vault",
+      "Nomad"
+    ]
+  },
+  {
+    "grouping": "Data Management",
+    "skills": [
+      {
+        "name": "MySQL/MariaDB",
+        "icon": "MySQL"
+      },
+      {
+        "name": "Sqlite",
+        "icon": "bash"
+      },
+      "postgresql",
+      "prometheus",
+      {
+        "name": "Victoria Metrics",
+        "icon": "bash"
+      }
+    ]
+  },
+  {
+    "grouping": "Observability and Monitoring",
+    "skills": [
+      "grafana",
+      "kibana",
+      {
+        "name": "Lightstep",
+        "icon": "bash"
+      },
+      "sentry",
+      {
+        "name": "Victoria Metrics",
+        "icon": "bash"
+      }
+    ]
+  },
+  {
+    "grouping": "Architecture",
+    "skills": [
+      {
+        "name": "Distributed Systems",
+        "icon": "bash"
+      },
+      {
+        "name": "System Resiliancy",
+        "icon": "bash"
+      },
+      {
+        "name": "Secure System Design",
+        "icon": "bash"
+      },
+      {
+        "name": "REST",
+        "icon": "bash"
+      },
+      {
+        "name": "RPC",
+        "icon": "bash"
+      }
+    ]
+  },
+  {
+    "grouping": "Containers & Cloud",
+    "skills": [
+      {
+        "name": "Docker",
+        "link": "https://docker.com"
+      },
+      {
+        "name": "DigitalOcean",
+        "link": "https://digitalocean.com",
+        "icon": "digitalocean"
+      }
+    ]
+  }
+]

@@ -1,1 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://rob.lolbert.com/categories/</loc></url><url><loc>https://rob.lolbert.com/</loc></url><url><loc>https://rob.lolbert.com/tags/</loc></url></urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://rlambert3.com/</loc>
+    </url>
+    <url>
+        <loc>https://rlambert3.com/json/</loc>
+    </url>
+    <url>
+        <loc>https://rlambert3.com/opensource/</loc>
+    </url>
+    <url>
+        <loc>https://rlambert3.com/opensource/chipate/</loc>
+        <lastmod>2017-06-04T14:13:14.674Z</lastmod>
+    </url>
+    <url>
+        <loc>https://rlambert3.com/opensource/cinc-server-exporter/</loc>
+        <lastmod>2023-05-23T14:13:14.674Z</lastmod>
+    </url>
+    <url>
+        <loc>https://rlambert3.com/search/</loc>
+    </url>
+    <url>
+        <loc>https://rlambert3.com/tags/</loc>
+    </url>
+    <url>
+        <loc>https://rlambert3.com/tags/cinc/</loc>
+    </url>
+    <url>
+        <loc>https://rlambert3.com/tags/emulation/</loc>
+    </url>
+    <url>
+        <loc>https://rlambert3.com/tags/rust/</loc>
+    </url>
+</urlset>

@@ -1,0 +1,59 @@
+[
+  {
+    "role": "Senior Engineer II",
+    "company": "[DigitalOcean](https://digitalocean.com/)",
+    "summary": "- • Built my first rust crate to fill a gap in monitoring in our multi-region CINC server environment\n- • Designed and Built a next-gen bare metal deployment system built on top of Nomad\n- • Help maintain the internal fork of our terraform provider\n- • Setup the internal Terraform Provider Repository in Artifactory\n- • Built pull based distributed CINC model to reduce load on CINC servers\n- • Integrated Sentry in to numerous services and tools under our ownership\n- • Integrated Lightstep in to numerous services and tools under our ownership",
+    "range": "2022 - Present"
+  },
+  {
+    "role": "Senior Engineer I",
+    "company": "[DigitalOcean](https://digitalocean.com/)",
+    "summary": "- • Monitor, troubleshoot, maintain, extend and improve the legacy Mesos stack\n- • Deploy changes to thousands of containers running on this cluster using Ansible, and Chef\n- • Built custom automated reports against this platform using Bash, Ansible and Python\n- • Managed deployment of configs via Ansible the current stack runs multiple high priority internal workloads\n- • Improvement in monitoring with custom Hadoop/HDFS exporters\n- • Provide support for one of our legacy Kafka platforms as well as refresh monitoring while developers work to migrate to a newer Kafka platform\n- • Create design documents, architecture designs, and other high level design documents to provide information to management to help make critical design decisions for our environments\n- • Determine RCA on issues regarding Chef builds and deployments\n- • Built Chef Cookbooks for the deployment of Chef Automate HA cluster which included ElasticSearch, PostgreSQL and Nginx components\n- • Built internal service utilizing Okta and Vault allowing new DigitalOcean Developers to self service deploy their own chef user\n- • Built Chef module using Optimizely for scheduling and tracking Chef deployment changes across our entire fleet of machines\n- • Built automation around tasks that wasted engineer time and that we’re prone to error\n- • Built reusable Terraform modules for internal users to deploy private virtual machines to mange internal tooling, complete with\n- • Built generic workflow for Atlantis allowing internal users to move to a more secure (using Vault) automated Terraform provisioning experience",
+    "range": "2019 - 2022"
+  },
+
+  {
+    "role": "Senior Site Reliability Engineer",
+    "company": "[LinkedIn](https://www.linkedin.com/)",
+    "summary": "- • Represented LinkedIn’s Espresso Team in cross-organizational stand-ups to provide both executions of complex tasks, and act as a single point of contact for our team\n- • Maintained multiple internal products which included upgrading multiple legacy codebases to Python3 and Go\n- • Designed and implemented global availability, cross data center consistency, and cross data center latency metrics and SLAs for all Espresso clusters\n- • Trained and onboarded new Espresso SREs, which enabled them to contribute to our ecosystem in under 3 months\n-\n- __Above and beyond__\n- • Completed the Machine Learning course offered through Stanford Online: Verification\n- • Member of the interview and hiring committees of SREs, Senior SREs, and Managers\n- • Organized, hosted, and presented at the first Espresso SRE Hackday\n- • Taught ongoing SRE Bootcamp series, as part of the new hire onboarding process",
+    "range": "2018 - 2019"
+  },
+  {
+    "role": "Site Reliability Engineer",
+    "company": "[LinkedIn](https://www.linkedin.com/)",
+    "summary": "- • Collaborated across teams to build the Espresso Data layer for a new logical data center\n- • Provided documentation improvements for Espresso cluster creation, consuming tribal knowledge from multiple sources into useful runbooks\n- • Designed, built and maintained 120+ node ELK cluster handling all of Espresso’s logging data across 4 data centers\n- • Built service overview dashboards for each Espresso owned service reducing both MTTR and MTTD\n- • Acted as lead on 80% of all Espresso GDPR related horizontal initiatives, overseeing both the design and resolution\n- • Oversaw the data migrations of Espresso clusters, which involved coordinating between teams both onsite and offshore",
+    "range": "2017 - 2018"
+  },
+
+  {
+    "role": "Site Reliability Engineer",
+    "company": "[CDPHP](https://www.cdphp.com/)",
+    "summary": "- • Maintained a balance of operational and development work to ensure critical business services were responsive\n- • Provided engineering and development teams with custom tooling built off known frameworks\n- • Designed Ansible and CFengine code to automate operational and system level tasks to improve performance, provide higher reliability and scale when needed\n- • Designed and implemented ELK log monitoring solution, with FileBeats, NXLog, Kafka, Logstash, ElasticSearch, Kibana",
+    "range": "2016 - 2017"
+  },
+  {
+    "role": "Systems Engineer II",
+    "company": "[CDPHP](https://www.cdphp.com/)",
+    "summary": "- • Designed and implemented custom integration systems between our enterprise monitoring solutions, CMDB, operator runbook, ITSM tool, and CFEngine our configuration management platform\n- • Integrated APM solution AppDynamics with existing Opsview monitoring environment\n- • Focused on the design and implementation of the Mulesoft Enterprise Service Bus, which had both on-premise and AWS components",
+    "range": "2015 - 2016"
+  },
+  {
+    "role": "Systems Engineer I",
+    "company": "[CDPHP](https://www.cdphp.com/)",
+    "summary": "Built CFEngine solution backed with Ansible ad-hoc tasks for constructing simple reports\n- • Replaced Tivoli Enterprise Portal with Nagios fork Opsview\n- • Handled day to day operational work such as: diagnosing web performance issues, code misconfigurations, as well as other internal infrastructure problems",
+    "range": "2014 - 2015"
+  },
+
+  {
+    "role": "Linux Systems Administrator",
+    "company": "[Xerox Litigation Services](https://www.xerox.com/en-us/services/transforming-legal-practices)",
+    "summary": "- • Installed and maintained servers in multi-site tier 3 and 4 data centers located internationally\n- • Traveled overseas to work directly with clients on site to provide support for the custom virtualized appliance\n- • Designed custom software solutions to reduce costs of operational expenses by utilizing open source solutions rather than purchasing an enterprise solution\n- • Engineered IT solutions to accommodate changing environments and project requirements from clients while actively working with other departments to resolve any issues in a timely manner",
+    "range": "2010 - 2014"
+  },
+  {
+    "role": "NOC Operator",
+    "company": "[Xerox Litigation Services](https://www.xerox.com/en-us/services/transforming-legal-practices)",
+    "summary": "- • Provided 24-hour support for Clients and Client Managers for all of the XLS products and infrastructure\n- • Monitored logs and custom alerting software to initiate the resolution of any potential or incipient issues\n- • Programmed enhancements for internal monitoring software such as upgrading the web application to use AJAX over the old static layout",
+    "range": "2007 - 2010"
+  }
+]
