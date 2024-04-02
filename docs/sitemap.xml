@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://rlambert3.com/</loc>
+        <loc>https://rob.lolbert.com/</loc>
     </url>
     <url>
-        <loc>https://rlambert3.com/json/</loc>
+        <loc>https://rob.lolbert.com/json/</loc>
     </url>
     <url>
-        <loc>https://rlambert3.com/opensource/</loc>
+        <loc>https://rob.lolbert.com/opensource/</loc>
     </url>
     <url>
-        <loc>https://rlambert3.com/opensource/chipate/</loc>
+        <loc>https://rob.lolbert.com/opensource/chipate/</loc>
         <lastmod>2017-06-04T14:13:14.674Z</lastmod>
     </url>
     <url>
-        <loc>https://rlambert3.com/opensource/cinc-server-exporter/</loc>
+        <loc>https://rob.lolbert.com/opensource/cinc-server-exporter/</loc>
         <lastmod>2023-05-23T14:13:14.674Z</lastmod>
     </url>
     <url>
-        <loc>https://rlambert3.com/search/</loc>
+        <loc>https://rob.lolbert.com/search/</loc>
     </url>
     <url>
-        <loc>https://rlambert3.com/tags/</loc>
+        <loc>https://rob.lolbert.com/tags/</loc>
     </url>
     <url>
-        <loc>https://rlambert3.com/tags/cinc/</loc>
+        <loc>https://rob.lolbert.com/tags/cinc/</loc>
     </url>
     <url>
-        <loc>https://rlambert3.com/tags/emulation/</loc>
+        <loc>https://rob.lolbert.com/tags/emulation/</loc>
     </url>
     <url>
-        <loc>https://rlambert3.com/tags/rust/</loc>
+        <loc>https://rob.lolbert.com/tags/rust/</loc>
     </url>
 </urlset>
