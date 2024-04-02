@@ -22,7 +22,8 @@
         <link rel="alternate" type="text/html" href="https://rob.lolbert.com/opensource/chipate/"/>
         <id>https://rob.lolbert.com/opensource/chipate/</id>
         
-        <content type="html" xml:base="https://rob.lolbert.com/opensource/chipate/">&lt;p&gt;omgomgomg&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://rob.lolbert.com/opensource/chipate/">&lt;p&gt;Rust emulator for Chip-8&lt;&#x2F;p&gt;
+&lt;p&gt;I always was fascinated by emulators, also wanted to learn the Rust language. So this is my attempt at killing 2 birds with one stone.&lt;&#x2F;p&gt;
 </content>
         
     </entry>
