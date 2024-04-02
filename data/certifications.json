@@ -1,0 +1,26 @@
+[
+  {
+    "name": "YOLO",
+    "description": "You want it? You merge it.",
+    "badge": "https://github.githubassets.com/assets/yolo-default-be0bbff04951.png",
+    "proof": "https://github.com/esoterick"
+  },
+  {
+    "name": "Pull Shark",
+    "description": "Opened pull requests that have been merged.",
+    "badge": "https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png",
+    "proof": "https://github.com/esoterick"
+  },
+  {
+    "name": "Quickdraw",
+    "description": "Gitty up!",
+    "badge": "https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png",
+    "proof": "https://github.com/esoterick"
+  },
+  {
+    "name": "Arctic Code Vault Contributor",
+    "description": "Contributed code to several repositories in the 2020 GitHub Archive Program.",
+    "badge": "https://github.githubassets.com/images/modules/profile/badge--acv-64.png",
+    "proof": "https://github.com/esoterick"
+  }
+]

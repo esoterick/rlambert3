@@ -1,0 +1,16 @@
+[
+{% set start = false %}
+{% set section = get_section(path="opensource/_index.md") %}
+{%- for post in section.pages -%}
+{% if loop.first and start %},{% endif %}
+{% if not post.draft %}
+{% set_global start = true %}
+{
+"title": {{ post.title | striptags | json_encode | safe }},
+"url": {{ post.permalink | json_encode | safe }},
+"body": {{ post.content | striptags | json_encode | safe }}
+}
+{% if not loop.last %},{% endif %}
+{% endif %}
+{%- endfor -%}
+]
