@@ -1,5 +1,5 @@
 title = "Robert J. Lambert III"
-base_url = "https://rlambert3.com"
+base_url = "https://rob.lolbert.com"
 theme = "zola-resume"
 compile_sass = true
 build_search_index = true
