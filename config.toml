@@ -1,0 +1,30 @@
+title = "Robert J. Lambert III"
+base_url = "https://rlambert3.com"
+theme = "zola-resume"
+compile_sass = true
+build_search_index = true
+taxonomies = [{ name = "tags", feed = true }]
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+
+[extra]
+first_name = "Robert"
+last_name = "J. Lambert III"
+address = "New York"
+email = "robert.j.lambert@pm.me"
+favicon = "/favicon.ico"
+avatar = "/media/it-me.png"
+
+katex = false
+show_about = true
+show_skills = true
+show_projects = false
+show_opensource = true
+show_publications = false
+show_experience = true
+show_education = false
+show_blog = false
