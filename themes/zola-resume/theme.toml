@@ -8,9 +8,7 @@ demo = "https://resume.alongwy.top"
 compile_sass = true
 generate_feed = true
 
-taxonomies = [
-  { name = "tags", feed = true },
-]
+taxonomies = [{ name = "tags", feed = true }]
 
 [extra]
 first_name = "Feng"
@@ -35,6 +33,6 @@ name = "Feng Yunlong"
 homepage = "https://www.alongwy.top"
 
 [original]
-author =  "Vincent Prouillet"
+author = "Vincent Prouillet"
 homepage = "https://www.vincentprouillet.com"
 repo = "https://github.com/getzola/hyde"
